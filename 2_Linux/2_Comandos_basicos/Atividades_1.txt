@@ -1,0 +1,73 @@
+01:
+* root = Refere-se ao usuário raiz ou superusuário do sistema
+* localhost = Refere-se ao nome do host local
+* var =  Refere-se à pasta /var, que é usada para armazenar arquivos variáveis do sistema
+* # = Refere-se ao Shell que é exibido quando o usuário está logado como root
+
+02.
+* /bin = Armazena arquivos binários essenciais que são usados pelo sistema operacional para executar funções básicas
+* /boot = Contém arquivos necessários para a inicialização do sistema
+* /etc =  Armazena arquivos de configuração do sistema que são usados pelos aplicativos instalados no sistema
+* /home = Contém os diretórios pessoais dos usuários do sistema
+* /lib = Contém bibliotecas compartilhadas que são usadas pelo sistema operacional e pelos aplicativos instalados no sistema
+* /proc = É um sistema de arquivos virtual que fornece informações sobre processos em execução e outros recursos do sistema
+* /usr =  Contém a maioria dos programas e arquivos usados pelo sistema
+* /var = Armazena arquivos variáveis do sistema
+* /sbin =  Contém arquivos binários essenciais para gerenciamento do sistema, incluindo comandos e utilitários usados apenas pelo superusuário ou para tarefas de administração de sistema
+
+03. O símbolo ~ (til) é um atalho ou alias usado no Linux para se referir ao diretório pessoal do usuário atual
+
+04. No Linux, os arquivos que se iniciam com um ponto (.) são arquivos ocultos.
+
+05. O comando utilizado para navegar entre os diretórios é o 'cd'
+
+06. Atalhos para:
+Limpar a tela = CTRL + L
+Alternar do modo gráfico para texto = ALT + F1
+Alternar do modo texto para gráfico = ALT + F7
+Alternar entre as janelas texto = ALT + F1 - F6
+Mostrar “telas” à cima (buffer das saídas dos comandos anteriores) = SHIFT + PgUp
+
+07. 
+    1 - Permissões
+    2 - Número de links
+    3 - Proprietário
+    4 - Grupo
+    5 - Tamanho
+    6 - Data e hora da modificação
+    7 - Nome
+
+08. mkdir -p ~/continente/pais/estado/cidade/bairro/rua/
+
+09. 
+    mkdir ~/planeta/continente/pais/regiao
+    mv ~/planeta/continente/pais/estado ~/planeta/continente/pais/regiao/
+
+10. 
+a. rm: Este ocmando serve para remover um arquivo específico
+b. rm –r: Este ocmando serve para remover um diretório e todos os seus arquivos e subdiretórios de forma recursiva
+c. rmdir: Este ocmando serve para remover um diretório vazio
+
+11. rmdir cidade/bairro/rua
+
+12. cp /etc/fstab /etc/group /etc/hosts ~/continente/pais/
+
+13. 
+Link Simbólico: É um tipo de link que cria um atalho para um arquivo ou diretório existente, criando um novo nome para o arquivo ou diretório original
+Link Hard: É um tipo de link que cria uma referência direta para um arquivo ou diretório existente, sem criar um novo nome ou caminho para o arquivo ou diretório original
+
+14. 
+    cd ~
+    ln -s /etc/fstab mounts.link
+    ls -l mounts.link
+
+15. 
+pwd: Usado para exibir o diretório atual em que o usuário está trabalhando
+tree: Usado para exibir uma lista hierárquica de diretórios e arquivos em uma estrutura em forma de árvore
+mv: Usado para mover ou renomear arquivos e diretórios
+cal: Usado para exibir o calendário do mês atual ou do ano especificado
+cd ~: Usado para mudar o diretório atual para o diretório anterior que foi acessado
+
+16. 
+sudo touch /root/teste
+sudo mv /root/teste /var/teste.var

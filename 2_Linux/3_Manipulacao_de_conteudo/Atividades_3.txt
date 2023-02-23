@@ -1,0 +1,39 @@
+01. 
+    grep: É um comando usado para pesquisar arquivos de texto por uma expressão regular ou padrão de texto.
+    
+    wc: É um comando que conta o número de linhas, palavras e caracteres em um arquivo de texto ou na entrada de dados padrão. 
+
+    sort: É um comando que classifica as linhas de um arquivo de texto em ordem alfabética ou numérica. 
+
+    cut: É um comando usado para extrair seções específicas de um arquivo de texto ou da entrada padrão de dados.
+
+    tar: É um utilitário de linha de comando usado par'a criar arquivos de backup e arquivos compactados.
+
+02. cat /etc/group | sort
+
+03. cat /etc/group | sort | wc
+
+04. ls -l / | cut -c 1-10,30-44,55-
+
+05. ls -ld /* | cut -c 1-10,20-30,40-50,55-
+
+06. ls -l /proc | grep -v "root"
+
+07. tar -czvf joao.tar.gz /home/joao/*
+
+08. 
+    tar -tvf joao.tar.gz | wc -l
+
+    ls -1 /home/joao | wc -l
+
+09. tar -czvf backup-etc.tar.gz /etc
+
+10. 
+    BZIP2: sudo cp backup-etc.tar.gz /root
+
+    GZIP: sudo cp backup-etc.tar.gz /root
+
+11. 
+    mkdir ~/restore-gzip
+    tar -xzvf /root/backup-etc.tar.gz -C ~/restore-gzip
+

@@ -1,0 +1,62 @@
+01. 
+O comando cria os seguintes diretórios e subdiretórios:
+
+Um diretório chamado "teste" no diretório atual.
+Um diretório chamado "docs" no diretório atual, com três subdiretórios dentro dele:
+"listas"
+"rh"
+"pub"
+Um diretório chamado "slides" no diretório atual, com dois subdiretórios dentro dele:
+"Linux"
+"Windows"
+
+02. mkdir -p Udemy/{Linux/{Atividades,Slides},Redes/{Atividades,Slides},Servidores{Atividades,Slides}
+
+03. O parâmetro "-r" no comando "cp" é usado para copiar diretórios e seus conteúdos de forma recursiva. O parâmetro "-r" é uma boa prática porque ajuda a garantir que todos os arquivos e subdiretórios dentro do diretório sejam copiados corretamente, sem perder nenhum conteúdo importante. 
+
+04. mkdir -p ~/atividade/sistema/linux/
+
+05. cp -r /etc/{fstab,resolv.conf,passwd,shadow,group,inittab} ~/atividade/sistema/
+
+06.
+mkdir ~/atividade/pratica
+mkdir ~/atividade/pratica/sistema/operacional
+mv ~/atividade/sistema/linux ~/atividade/pratica/sistema/operacional/
+
+07. 
+    /etc/fstab: Este arquivo é usado pelo sistema operacional para montar automaticamente as partições do disco rígido no momento da inicialização.
+
+    /etc/resolv.conf: Este arquivo é usado para configurar a resolução de nomes de domínio (DNS) no sistema. 
+
+    /etc/passwd: Este arquivo contém informações sobre as contas de usuário do sistema.
+
+    /etc/shadow: Este arquivo contém senhas criptografadas para contas de usuário do sistema. 
+
+    /etc/group: Este arquivo contém informações sobre os grupos do sistema e seus membros. 
+
+    /etc/inittab: Este arquivo é usado pelo sistema init para controlar o processo de inicialização do sistema.'
+
+08. rm -rf ~/atividade/pratica/sistema/operacional/
+
+09. mv ~/atividade/pratica/ ~/atividade/teste/
+
+10. 
+    "cat" é um comando que exibe o conteúdo completo de um ou mais arquivos de texto na tela. 
+
+    "more" é um comando que exibe o conteúdo de um arquivo de texto de forma paginada. 
+
+    "less" é um comando semelhante ao "more", mas com mais recursos. 
+
+11. ./app.sh > log.txt
+
+12. ./app.sh 2> erro.log 1> ok.log
+
+13. 
+    cat /etc/passwd: exibe o conteúdo completo do arquivo /etc/passwd no terminal.
+    
+    grep "/bin/false": filtra as linhas que contêm a string "/bin/false" a partir do resultado do comando cat.
+    
+    cut -d ":" -f l: usa o caractere ":" como delimitador e extrai a primeira coluna (o nome do usuário) dessas linhas filtradas.
+
+14. gcc meu_programa.c -o meu_programa && ./meu_programa
+    o primeiro comando compila o arquivo "meu_programa.c" usando o compilador GCC e o nomeia como "meu_programa" usando a opção "-o". Em seguida, o operador && verifica se o comando anterior foi bem-sucedido (ou seja, se a compilação foi concluída com êxito). Se a compilação foi bem-sucedida, o segundo comando ./meu_programa é executado, o que inicia o programa compilado. Se a compilação falhar, o segundo comando não será executado.

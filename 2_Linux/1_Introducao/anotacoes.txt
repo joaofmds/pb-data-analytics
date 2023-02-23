@@ -1,0 +1,46 @@
+- Introdução
+	- Conceitos e Evolução histórica do GNU/Linux
+		- Sistema operacional livre
+			- Programa que gerencia os recursos disponíveis para o sistema, sendo a interface entre o Hardware e o usuário. 
+			- Constituído de Kernel e Aplicativos.
+			- Free Software Foundation
+				- 0 – Liberdade de executar o software para qualquer finalidade;
+				- 1 – Liberdade de estudar e adaptar o software conforme suas necessidades; 
+				- 2 – Liberdade de distribuir cópias do software para ajudar ao próximo;
+				- 3 – Liberdade de melhorar o software e liberar/disponibilizar as modificações, de modo que toda a comunidade se beneficie
+			- GNU/Linux
+			- Android
+			- FreeBSD
+			- Minix
+			- FreeDOS
+			- Haiku
+		- Histórico
+			- 1965 - MULTICS
+			- 1969 - MULTICS reescrito com o Assembly
+			- 1973 – UNIX reescritona linguagem C
+			- 1976 – A AT&T opta por “fechar” o código do UNIX 
+			- padrão POSIX
+			- 1983 – Richard Stallman inicia o Projeto GNU
+			- 1987 – Andrew S. Tanenbaum desenvolve o SO MINIX
+			- 1991 – Linus Torvalds desenvolve um Kernel a partir do MINIX
+			- 1991 – Linus disponibiliza a primeira versão oficial do Kernel Linux
+		- Movimento / Projeto GNU
+			- O GNU/Linux é licenciado pela GPL
+		- Conceitos
+			- Kernel: núcleo do sistema operacional
+			- Shell: Interpretador de comandos do Linux
+				- SH
+				- CSH
+				- Bash
+			- Usuário -> Shell -> Programas e comandos -> Kernel -> Hardware
+		- Sobre o Kernel
+			- GNU/Linux é composto de Kernel e aplicativos
+			- Escrito com linguagem C e algumas partes em Assembly
+			- Kernel pode ser modificado por qualquer pessoa
+			- https://www.kernel.org/
+		- Distribuições GNU/Linux
+			- Diversas distribuições
+			- 900 distribuições catalogadas
+			- Debian
+			- Slackware
+			- Red Hat
