@@ -29,7 +29,7 @@
     <td>
         <strong>Empresa:</strong> Compass.UOL<br>
         <strong>Cargo:</strong> AWS Cloud Data Engineering<br>
-        <strong>Início:</strong> 02/2023 -<strong>Até:</strong> Atual<br>
+        <strong>Início:</strong> 02/2023 - <strong>Até:</strong> Atual<br>
     </td>
 </tr>
 <tr>
@@ -37,7 +37,7 @@
     <td>
         <strong>Empresa:</strong> BR GAAP Corporation<br>
         <strong>Cargo:</strong> Programador Cloud Júnior<br>
-        <strong>Início:</strong> 01/2023 -<strong>Até:</strong> Atual<br>
+        <strong>Início:</strong> 01/2023 - <strong>Até:</strong> Atual<br>
     </td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@
     <td>
         <strong>Empresa:</strong> Smarthis<br>
         <strong>Cargo:</strong> Estagiário de Testes / Quality Assurance<br>
-        <strong>Início:</strong> 05/2022 -<strong>Até:</strong> 01/2023<br>
+        <strong>Início:</strong> 05/2022 - <strong>Até:</strong> 01/2023<br>
     </td>
 </tr>
 </table>
@@ -60,7 +60,7 @@
     <td>
         <strong>Faculdade:</strong> Decomplica<br>
         <strong>Curso:</strong> Pós-Graduação em Segurança da Informação<br>
-        <strong>Início:</strong> 10/2022 -<strong>Até:</strong> 10/2023<br>
+        <strong>Início:</strong> 10/2022 - <strong>Até:</strong> 10/2023<br>
     </td>
 </tr>
 <tr>
@@ -68,7 +68,7 @@
     <td>
         <strong>Faculdade:</strong> Unicesumar<br>
         <strong>Curso:</strong> Tecnólogo em Redes de Computadores<br>
-        <strong>Início:</strong> 06/2022 -<strong>Até:</strong> 01/2025<br>
+        <strong>Início:</strong> 06/2022 - <strong>Até:</strong> 01/2025<br>
     </td>
 </tr>
 <tr>
@@ -76,7 +76,7 @@
     <td>
         <strong>Faculdade:</strong> Unidesc<br>
         <strong>Curso:</strong> Administração<br>
-        <strong>Início:</strong> 01/2017 -<strong>Até:</strong> 12/2020<br>
+        <strong>Início:</strong> 01/2017 - <strong>Até:</strong> 12/2020<br>
     </td>
 </tr>
 </table>
@@ -92,7 +92,7 @@
         <strong>Certificação:</strong> Microsoft Certified: Azure Fundamentals AZ-900<br>
         <strong>Empresa:</strong> Microsoft<br>
         <strong>Credencial:</strong> https://www.credly.com/badges/c30c611c-6e7a-4c2f-9180-3d41bc37b5ed/linked_in_profile<br>
-        <strong>Emissão:</strong> 01/2023 -<strong>Expiração:</strong> Não expira<br>
+        <strong>Emissão:</strong> 01/2023 - <strong>Expiração:</strong> Não expira<br>
     </td>
 </tr>
 <tr>
@@ -101,7 +101,7 @@
         <strong>Certificação:</strong> Scrum Fundamentals Certified - SFC™<br>
         <strong>Empresa:</strong> SCRUMstudy<br>
         <strong>Credencial:</strong> https://www.scrumstudy.com/certification/verify?type=SFC&number=954786<br>
-        <strong>Emissão:</strong> 12/2022 -<strong>Expiração:</strong> Não expira<br>
+        <strong>Emissão:</strong> 12/2022 - <strong>Expiração:</strong> Não expira<br>
     </td>
 </tr>
 <tr>
@@ -110,27 +110,89 @@
         <strong>Certificação:</strong> Scrum Foundation Professional Certificate - SFPC™<br>
         <strong>Empresa:</strong> CertiProf<br>
         <strong>Credencial:</strong> https://www.credly.com/badges/6b0f96f2-d771-45e9-a084-d34471571211/linked_in_profile<br>
-        <strong>Emissão:</strong> 11/2022 -<strong>Expiração:</strong> Não expira<br>
+        <strong>Emissão:</strong> 11/2022 - <strong>Expiração:</strong> Não expira<br>
     </td>
 </tr>
 </table>
 
 ### 🐍 Linguagens e Ferramentas:
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 6px">
-    <img width="50px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
-    <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYY0pvHu6oaaJRADcCoacoP5BKwJN0i1nqFNCnmKvN&s">
-    <img width="50px" src="https://cdn-icons-png.flaticon.com/128/6124/6124995.png">
-    <img width="50px" src="https://cdn-icons-png.flaticon.com/128/733/733609.png">
-    <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-    <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wifiservice.svg/1277px-Wifiservice.svg.png">
-    <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png">
-    <img width="50px" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg">
-    <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ8b8HTIRzFWvwyb4l6mrL-mVY0md10Ru1xBbTr7-9IQ&s">
-    <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/vim-3-1175075.png?w=128&f=avif">
-    <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/docker-226091.png?w=128&f=avif">
-    <img width="50px" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/kubernetes-icon.svg">
-    <img width="50px" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/aws-icon.svg">  
-    <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxs6F1Y8wFOreLS97kCGSAoKp2d7LLTD6do483qoUL7_XnAEOqmFLq9GGqgXWB6JWV0xs&usqp=CAU">
-    <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/ansible-2752245-2285062.png?w=128&f=avif">
-    <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/jenkins-1-282385.png?w=128&f=avif">
+<table>
+    <tr>
+        <td>
+            <h3><strong>DevOps</strong></h3>
+        </td>
+        <td>
+            <img width="50px" src="https://cdn-icons-png.flaticon.com/128/6124/6124995.png" alt="Linux">
+        </td>
+        <td>
+            <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/vim-3-1175075.png?w=128&f=avif" alt="VIM">
+        </td>
+        <td>
+            <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wifiservice.svg/1277px-Wifiservice.svg.png" alt="Redes">
+        </td>
+        <td>
+            <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ8b8HTIRzFWvwyb4l6mrL-mVY0md10Ru1xBbTr7-9IQ&s" alt="NGINX">
+        </td>
+        <td>
+            <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/docker-226091.png?w=128&f=avif" alt="Docker">
+        </td>
+        <td>
+            <img width="50px" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/kubernetes-icon.svg" alt="Kubernetes">
+        </td>
+        <td>
+            <img width="50px" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/aws-icon.svg" alt="Amazon Web Services">  
+        </td>
+        <td>
+            <img width="50px" src="https://img.icons8.com/fluency/256/azure-1.png" alt="Microsoft Azure">
+        </td>
+        <td>
+            <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxs6F1Y8wFOreLS97kCGSAoKp2d7LLTD6do483qoUL7_XnAEOqmFLq9GGqgXWB6JWV0xs&usqp=CAU" alt="Terraform">
+        </td>
+        <td>
+            <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/ansible-2752245-2285062.png?w=128&f=avif" alt="Ansible">
+        </td>
+        <td>
+            <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/jenkins-1-282385.png?w=128&f=avif" alt="Jenkins">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3><strong>Linguagens de Programação</strong></h3> 
+        </td>
+        <td>
+            <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYY0pvHu6oaaJRADcCoacoP5BKwJN0i1nqFNCnmKvN&s" alt="Python">
+        </td>
+        <td>
+            <img width="50px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Javascript">
+        </td>
+        <td>
+            <img width="50px" src="https://cdn.iconscout.com/icon/free/png-512/django-11-1175036.png?f=avif&w=256" alt="Django">
+        </td>
+        <td>
+            <img width="50px" src="https://img.icons8.com/fluency/256/node-js.png" alt="NodeJS">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3><strong>Banco de Dados</strong></h3> 
+        </td>
+        <td>
+            <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png" alt="PostgreSQL">
+        </td>
+        <td>
+            <img width="50px" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB">
+        </td>
+    </tr>
+</table>
+    
+    
+
+
+
+
+
+
+
+
 </div>
