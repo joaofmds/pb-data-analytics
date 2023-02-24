@@ -1,0 +1,41 @@
+01. 
+    du: usado no Linux para mostrar o uso de espaço em disco de arquivos e diretórios. 
+
+    df: usado no Linux para mostrar informações sobre o espaço em disco disponível em sistemas de arquivos montados. 
+
+    free: usado para exibir informações sobre o uso da memória do sistema, incluindo a quantidade de memória livre e usada. 
+
+    uptime: usado para exibir há quanto tempo o sistema está em execução, bem como a carga média do sistema nas últimas 1, 5 e 15 minutos.
+
+    dmesg: usado para exibir mensagens do kernel do Linux. 
+
+02. du -sh /lib
+
+03. df -h
+
+04. free -h
+
+05. dmesg | grep -i cdrom
+
+06.
+    ip link show
+    sudo ip addr add <endereço_IP>/<máscara_de_rede> dev <interface>
+    sudo ip addr add 192.168.1.100/24 dev eth0
+
+07. ping www.google.com
+
+08.
+    DIFERENÇA 1: Funcionamento com sistemas de arquivos
+    DIFERENÇA 2: Interatividade e interface do usuário
+
+09. "runlevel" é um modo de operação do sistema que determina quais serviços e processos são executados durante a inicialização. 
+
+10. 
+    Runlevel 0: Desligamento do sistema
+    Runlevel 1: Modo de usuário único (single user mode)
+    Runlevel 2: Modo multiusuário sem rede
+    Runlevel 3: Modo multiusuário com rede
+    Runlevel 4: Modo reservado para o usuário
+    Runlevel 5: Modo gráfico com rede
+    Runlevel 6: Reinício do sistema
+
