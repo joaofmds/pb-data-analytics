@@ -1,0 +1,51 @@
+01. sudo adduser joao
+
+02. sudo adduser convidado
+
+03. 
+    root:x:0:0:root:/root:/bin/bash
+    Nessa linha, as informações são separadas por dois pontos. O primeiro campo é o nome de usuário, o segundo campo é a senha criptografada (ou um "x" se a senha estiver armazenada no arquivo "/etc/shadow"), o terceiro campo é o ID de usuário, o quarto campo é o ID do grupo, o quinto campo é o diretório home e o sexto campo é o shell padrão.
+
+    joao:x:1000:1000:Joao Silva:/home/joao:/bin/bash
+    Aqui, as informações básicas do usuário são diferentes, incluindo o nome de usuário, o ID de usuário, o ID do grupo, o diretório home e o shell padrão.
+
+04. O sinal "!!" no arquivo "/etc/shadow" indica que a senha para esse usuário foi desabilitada ou definida como vazia
+
+05. sudo groupadd udemy
+
+06. sudo usermod -a -G udemy convidado
+
+07. mkdir /Alunos
+    mv convidado,joao /Alunos
+
+08. sudo chmod -R +r+x,g+s Alunos
+
+09. sudo chmod 770,g+s convidado,joao
+
+10. sudo chown convidado convidado
+    sudo chown joao joao
+
+11. sudo chown :udemy convidado
+    sudo chown :udemy joao
+
+12. sudo passwd joao
+    sudo passwd convidado
+
+13. ALT + F2
+
+14. ls -l
+
+15. ls -l
+
+16. sudo usermod -s /bin/false convidado
+    tail /etc/passwd
+
+17. Sim
+
+18. getent group convidado
+
+19. sudo usermod -aG root,adm,wheel convidado
+
+20. O comando "groups convidado" é usado para exibir todos os grupos aos quais o usuário "convidado" pertence no sistema Linux. A funcionalidade desse comando é listar os grupos aos quais o usuário pertence, permitindo que o usuário ou o administrador do sistema verifique se o usuário tem as permissões corretas para acessar determinados arquivos ou executar determinados comandos.
+
+21. O arquivo "/etc/passwd" é um arquivo de texto plano que contém informações sobre contas de usuários, incluindo seus nomes de usuário, UID (User ID), GID (Group ID), diretórios home e shells padrão, entre outros. 

@@ -1,0 +1,26 @@
+01. Um processo é uma instância de um programa em execução. 
+
+02. 
+    PID (Process ID) é um número exclusivo atribuído a cada processo em execução em um sistema operacional. Ele é usado pelo sistema operacional para identificar e gerenciar os processos em execução.
+
+    UID (User ID) é um identificador numérico exclusivo atribuído a cada usuário em um sistema operacional. O UID é usado para controlar o acesso do usuário a recursos do sistema, como arquivos e diretórios, e para permitir que o sistema operacional identifique o proprietário de um processo em execução. 
+
+03. nice -n 10 sleep 200 &
+
+04. renice 15 -p <PID do processo>
+    pgrep sleep
+    renice 15 -p 1234
+
+05. ps aux | grep sleep
+    kill 1234
+
+06. sleep 100 &
+    killall sleep
+
+07. CTRL + Z
+
+08. Sim
+
+09. Sim
+
+10. bg
