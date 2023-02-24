@@ -1,23 +1,54 @@
 01. 
+    Gerenciador de pacotes
+    Arquivos de pacotes (.deb, .rpm, .tar.gz, etc.)
+    Compilação de código-fonte
 
 02. 
+( 1 ) Debian    ( 2 ) “rpm” para pacotes com extensão “.rpm” / Gerenciador “yum”;
+( 2 ) Red Hat   ( 3 ) “installpkg” para pacotes com extensão “.tgz”;
+( 3 ) OpenSUSE  ( 4 ) “rpm” para pacotes com extensão “.rpm” / Gerenciador “yast”;
+( 4 ) Slackware ( 1 ) “dpkg” para pacotes com extensão “.deb” / Ger. “apt-get”;
 
-03. 
+03. /etc/apt/sources.list
 
-04. 
+04. /etc/yum.repos.d/
 
-05. 
+05. nmap
 
 06. 
+Através do código fonte:
 
-07. 
+Para instalar o "nmap" a partir do código-fonte, siga os passos abaixo:
 
-08. 
+Baixe o código-fonte do site oficial do "nmap": https://nmap.org/download.html
+Extraia o arquivo .tar.gz em uma pasta local.
+Abra um terminal e navegue até a pasta onde o arquivo foi extraído.
+Execute o comando "./configure" para configurar as opções de compilação.
+Em seguida, execute "make" para compilar o código-fonte.
+Finalmente, execute "sudo make install" para instalar o "nmap" no seu sistema.
+Através de um pacote pré-compilado:
 
-09. 
+Muitas distribuições Linux fornecem pacotes pré-compilados do "nmap". Para instalar a partir de um pacote pré-compilado:
 
-10. 
+Abra um terminal e execute o gerenciador de pacotes da sua distribuição (por exemplo, apt-get para Debian/Ubuntu, dnf ou yum para CentOS/Fedora, pacman para Arch Linux).
 
-11.
+Use o comando apropriado para instalar o pacote "nmap". Por exemplo:
 
-12.
+Debian/Ubuntu: sudo apt-get install nmap
+CentOS/Fedora: sudo dnf install nmap (ou sudo yum install nmap)
+Arch Linux: sudo pacman -S nmap
+Através de um gerenciador de pacotes:
+
+A instalação do "nmap" através de um gerenciador de pacotes é a forma mais fácil e recomendada. Os gerenciadores de pacotes cuidam de todas as dependências e atualizações do pacote automaticamente. Para instalar o "nmap" através de um gerenciador de pacotes, siga os passos abaixo:
+
+Abra um terminal e execute o gerenciador de pacotes da sua distribuição (por exemplo, apt-get para Debian/Ubuntu, dnf ou yum para CentOS/Fedora, pacman para Arch Linux).
+
+Use o comando apropriado para instalar o pacote "nmap". Por exemplo:
+
+Debian/Ubuntu: sudo apt-get install nmap
+CentOS/Fedora: sudo dnf install nmap (ou sudo yum install nmap)
+Arch Linux: sudo pacman -S nmap
+
+07. “nmap”
+
+08. sudo apt uninstall nmap
