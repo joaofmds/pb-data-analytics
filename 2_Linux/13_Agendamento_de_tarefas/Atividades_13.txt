@@ -1,23 +1,27 @@
-01. 
+01. Backup completo, Backup incremental, Backup diferencial
 
-02. 
+02. O backup incremental copia apenas os arquivos que foram modificados desde o último backup. O backup diferencial, por outro lado, copia apenas os arquivos que foram modificados desde o último backup completo.
 
-03. 
+03. Ao definir uma estratégia de backup incremental ou diferencial, devemos possuir pelo menos uma vez em nossa rotina semanal um backup do tipo completo para possibilitar a restauração dos dados. 
 
 04. 
+#!/bin/bash
 
-05. 
+# Obter a data atual no formato ano-mês-dia
+data_atual=$(date +%Y-%m-%d)
 
-06. 
+# Nome do arquivo de backup
+nome_backup="BKP-${data_atual}-etc.tar.gz"
 
-07. 
+# Caminho completo do arquivo de backup
+caminho_backup="/home/bkps/${nome_backup}"
 
-08. 
+# Compactar o diretório /etc em um arquivo tar.gz
+tar -czf "${caminho_backup}" /etc
 
-09. 
+# Exibir mensagem de conclusão
+echo "Backup concluído: ${caminho_backup}"
 
-10. 
+05. $ stat /etc/passwd
 
-11.
-
-12.
+06. stat /etc/passwd
