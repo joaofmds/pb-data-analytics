@@ -1,23 +1,46 @@
-01. 
+Questão 3 do PDF:
 
-02. 
+Crie um Shell Script para automatizar alguma tarefa em ambiente GNU/Linux e me envie para ter um feedback (conforme orientações do vídeo).
 
-03. 
+#!/bin/bash
 
-04. 
 
-05. 
 
-06. 
+# Definir as variáveis
 
-07. 
+origem="/caminho/para/pasta/a/ser/backupada"
 
-08. 
+destino="/caminho/para/pasta/de/backup"
 
-09. 
 
-10. 
 
-11.
+# Criar pasta de backup se não existir
 
-12.
+if [ ! -d "$destino" ]
+
+then
+
+    mkdir -p "$destino"
+
+fi
+
+
+
+# Gerar o nome do arquivo de backup com data e hora atual
+
+datahora=$(date +"%Y-%m-%d-%H-%M-%S")
+
+arquivo_backup="$destino/backup-$datahora.tar.gz"
+
+
+
+# Fazer o backup da pasta de origem
+
+tar -czf "$arquivo_backup" "$origem"
+
+
+
+# Exibir mensagem de conclusão
+
+echo "Backup concluído com sucesso: $arquivo_backup"
+
