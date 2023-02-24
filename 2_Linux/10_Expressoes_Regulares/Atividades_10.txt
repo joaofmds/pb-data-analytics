@@ -1,23 +1,31 @@
-01. 
+01. Uma expressão regular (também conhecida como regex) é uma sequência de caracteres que define um padrão de busca em um texto.
 
-02. 
+02. Uma situação comum em que uma expressão regular pode ser útil é na validação de endereços de e-mail em um formulário de cadastro em um site ou aplicativo.
 
-03. 
+    Nesse caso, uma expressão regular adequada seria algo como:
 
-04. 
+    ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
 
-05. 
 
-06. 
+03. Os curingas de linha de comando, como o "?" e o "*", têm funções semelhantes aos metacaracteres em expressões regulares, mas não são exatamente a mesma coisa.
 
-07. 
+O curinga "?" representa um único caractere, enquanto o curinga "" representa qualquer número de caracteres, incluindo nenhum. Por exemplo, se digitarmos "ls p??" em um diretório que contenha arquivos com nomes como "foo" e "bar", apenas os arquivos com nomes "pab" e "paz" serão listados. Se digitarmos "ls p", todos os arquivos que começam com "p" serão listados.
 
-08. 
+04. Os metacaracteres do tipo "Representantes" (também conhecidos como quantificadores) em expressões regulares são usados para especificar quantas vezes um determinado caractere, grupo de caracteres ou padrão deve aparecer em um texto.
 
-09. 
+05. Os metacaracteres do tipo "Âncora" em expressões regulares são usados para indicar uma posição específica no texto onde um padrão deve ser encontrado. Eles permitem definir padrões que correspondam apenas a uma parte específica do texto, como o início ou o fim da linha. 
 
-10. 
+06. Os metacaracteres do tipo "Quantificadores" em expressões regulares são usados para indicar quantas vezes um caractere, grupo de caracteres ou padrão deve ocorrer em um texto. Eles permitem definir padrões que correspondam a uma quantidade específica de caracteres, ou a um intervalo de ocorrências possíveis.
 
-11.
+07. Para pesquisar o caractere "-" literal dentro de uma lista em uma expressão regular, você deve colocá-lo no início ou no final da lista, ou escapá-lo com uma barra invertida ""
 
-12.
+08. A expressão regular "[][-]" é uma lista que contém apenas um caractere, que é o hífen. Essa expressão regular coincide apenas com o caractere hífen ("-") e não com nenhum outro caractere.  
+
+09. A expressão regular \b[ar]*a\b irá coincidir com a palavra "arara" da seguinte maneira:
+
+\b: indica uma âncora de palavra que coincide com uma posição de fronteira de palavra. Isso significa que a expressão só vai coincidir com a letra "a" em uma posição que inicie ou termine uma palavra.
+[ar]*: indica que zero ou mais ocorrências das letras "a" ou "r" podem ser encontradas antes da letra "a".
+a: coincide com a letra "a".
+\b: outra âncora de palavra, que serve para indicar que a palavra termina na letra "a".
+
+10. A lista [a-z] inclui apenas letras minúsculas não acentuadas do alfabeto latino, sem incluir vogais acentuadas (com acentos agudos ou circunflexos).
