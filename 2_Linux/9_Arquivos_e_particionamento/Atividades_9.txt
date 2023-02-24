@@ -1,23 +1,32 @@
-01. 
+01. $ sudo fdisk /dev/sda
+    $ sudo fdisk -l /dev/sda
 
-02. 
+02. $ lsblk
+    $ sudo mkfs.ext4 /dev/sdb1
 
-03. 
+03. mkswap /dev/sdb2
+    swapon /dev/sdb2
 
-04. 
+04. sudo mkdir /mnt/part01
+    sudo mount /dev/sdb1 /mnt/part01
+    mount -l
 
-05. 
+05. sudo fdisk /dev/sd
+    sudo fdisk -l /dev/sdb
 
-06. 
+06. sudo mkfs.xfs /dev/sda2
 
-07. 
+07. sudo mkdir /database
+    sudo mount /dev/sdb2 /database
+    mount -l
 
-08. 
+08. nano /etc/fstab
+    # Partição formatada em EXT4 na questão 4
+/dev/sdb1       /mnt/part01      ext4    defaults        0       0
 
-09. 
+# Partição formatada em JFS na questão 7
+/dev/sdb2       /database        jfs     defaults        0       0
 
-10. 
+09. Um sistema de arquivos é uma estrutura lógica que permite ao sistema operacional armazenar e gerenciar arquivos em dispositivos de armazenamento, como discos rígidos, unidades flash USB e cartões de memória
 
-11.
-
-12.
+10. Em um sistema operacional, um "ponto de montagem" é um diretório no sistema de arquivos em que um dispositivo de armazenamento externo ou uma partição é conectado e acessado pelo sistema
