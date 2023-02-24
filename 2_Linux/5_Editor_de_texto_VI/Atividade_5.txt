@@ -1,0 +1,44 @@
+01. 
+    yy: Copia a linha atual para a área de transferência (buffer).
+    A: Move o cursor para o final da linha atual e coloca o editor em modo de inserção.
+    r: Substitui o caractere atual sob o cursor pelo caractere especificado.
+    p: Cola o conteúdo da área de transferência após o cursor.
+    :x: Grava as alterações e sai do editor.
+    5yy: Copia as próximas cinco linhas para a área de transferência.
+    :w: Grava as alterações no arquivo, mas não sai do editor.
+    :q: Sai do editor, a menos que haja alterações não salvas, nesse caso uma mensagem de erro é exibida.
+    :q!: Sai do editor sem salvar as alterações.
+    i: Coloca o editor em modo de inserção antes do caractere atual.
+    o: Adiciona uma nova linha após a linha atual e coloca o editor em modo de inserção.
+    dd: Apaga a linha atual e a coloca na área de transferência.
+
+02. ls -la /etc > ~/lista_etc.txt
+
+03. vi ~/lista_etc.txt
+
+04. vi ~/lista_etc.txt
+
+05. cp /etc/passwd ~/passwd_copia
+
+06. sed -i 's/\/bin\/false/\/bin\/nologin/g' ~/passwd_copia
+
+07. vi ~/passwd_copia
+
+    Posicionar o cursor na primeira linha do arquivo, que contém as informações do usuário "root".
+
+    Pressionar a tecla "y" duas vezes para copiar a linha inteira.
+
+    Pressionar a tecla "G" para posicionar o cursor no final do arquivo.
+
+    Pressionar a tecla "p" para colar a linha copiada no final do arquivo.
+
+    Salvar e fechar o arquivo "passwd_copia" com os comandos ":wq
+
+08. vi ~/passwd_copia
+    :/bin\/false\|\/usr\/sbin\/nologin
+
+09. 
+    Pressionar a tecla "Esc" para sair do modo de inserção e retornar para o modo de comando.
+
+    Digitar o comando ":wq" (sem aspas) e pressionar "Enter" para salvar as modificações e sair do editor.
+
