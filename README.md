@@ -14,11 +14,21 @@
 
 ## 💻 **Sobre mim**:
 
-- 23 anos
-- Casado
-- Moro em Valparaíso de Goiás
-- Aficionado pela tecnologia, entusiasta do mundo open-souce, do Linux e da cultura DevOps
-- Hobby: Amo ler e tenho uma biblioteca pessoal com mais de 1000 livros
+<table>
+    <tr>
+        <td>
+            • 23 anos<br>
+            • Casado<br>
+            • Moro em Valparaíso de Goiás<br>
+            • Aficionado pela tecnologia, entusiasta do mundo open-souce, do Linux e da cultura DevOps<br>
+            • Hobby: Amo ler e tenho uma biblioteca pessoal com mais de 1000 livros<br>
+        </td>
+        <td>
+            <img src="https://media.licdn.com/dms/image/C4E03AQHaHG8EiOG68g/profile-displayphoto-shrink_800_800/0/1588940970058?e=1682553600&v=beta&t=329DrmNNvfMCmU99bHk4zpupkdw7zL_TUFcyHrCH4BM" alt="João Felipe Mendes de Souza" width=130px>
+        </td>
+    </tr>
+</table>
+
 
 ---
 
