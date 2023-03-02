@@ -126,38 +126,21 @@
 
 ---
 
-### 🐍 | Meus conhecimentos
+### 🐍 | Trilha de conhecimento
 <div>
     <table>
         <tr>
             <td>
-                <h3><strong>Linguagens de Programação</strong></h3> 
+                <h3><strong>Versionamento de Código</strong></h3> 
             </td>
             <td>
-                <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8RdXjXF90DRfUbWNZpEp6hBiP0p1WzSlIopL3ZHUBN2FUhruv77AquS56uvYsrD7cgy0&usqp=CAU" alt="Python">
+                <img width="50px" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
             </td>
             <td>
-                <img width="50px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Javascript">
-            </td>
-            <td>
-                <img width="50px" src="https://cdn.iconscout.com/icon/free/png-512/django-11-1175036.png?f=avif&w=256" alt="Django">
-            </td>
-            <td>
-                <img width="50px" src="https://img.icons8.com/fluency/256/node-js.png" alt="NodeJS">
+                <img width="50px" src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="Github">
             </td>
         </tr>
-        <tr>
-            <td>
-                <h3><strong>Banco de Dados</strong></h3> 
-            </td>
-            <td>
-                <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png" alt="PostgreSQL">
-            </td>
-            <td>
-                <img width="50px" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB">
-            </td>
-        </tr>
-        <tr>
+         <tr>
             <td>
                 <h3><strong>Sistema Operacional e Shell</strong></h3>
             </td>
@@ -170,69 +153,21 @@
             <td>
                 <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/vim-3-1175075.png?w=128&f=avif" alt="VIM">
             </td>
+        </tr>
+        <tr>
             <td>
-                <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqxsI_gXjOSYNbp5yIzxF1CUlqWCPRjrBQJItUSknRnO90ZYZj-kWFY0P26txSu5vCwwk&usqp=CAU" alt="PowerShell">
+                <h3><strong>Banco de Dados</strong></h3> 
+            </td>
+            <td>
+                <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png" alt="PostgreSQL">
             </td>
         </tr>
         <tr>
             <td>
-                <h3><strong>Redes e Segurança</strong></h3>
+                <h3><strong>Dados</strong></h3> 
             </td>
             <td>
-                <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wifiservice.svg/1277px-Wifiservice.svg.png" alt="Redes">
-            </td>
-           <td>
-                <img width="50px" height="50px" src="https://info.aafcpa.com/hubfs/Anderson-M.jpg" alt="Segurança de Redes">
-            </td>
-            <td>
-                <img width="50px" height="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN90Uc9hO3EVQYv25HleybUmJUcDlmsYqS0w&usqp=CAU" alt="LGPD">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h3><strong>Container</strong></h3>
-            </td>
-           <td>
-                <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/docker-226091.png?w=128&f=avif" alt="Docker">
-            </td>
-            <td>
-                <img width="50px" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/kubernetes-icon.svg" alt="Kubernetes">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h3><strong>Cloud e Automação</strong></h3>
-            </td>
-            <td>
-                <img width="50px" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/aws-icon.svg" alt="Amazon Web Services">  
-            </td>
-            <td>
-                <img width="50px" src="https://img.icons8.com/fluency/256/azure-1.png" alt="Microsoft Azure">
-            </td>
-            <td>
-                <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxs6F1Y8wFOreLS97kCGSAoKp2d7LLTD6do483qoUL7_XnAEOqmFLq9GGqgXWB6JWV0xs&usqp=CAU" alt="Terraform">
-            </td>
-            <td>
-                <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/ansible-2752245-2285062.png?w=128&f=avif" alt="Ansible">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h3><strong>Servidor Web</strong></h3>
-            </td>
-            <td>
-                <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ8b8HTIRzFWvwyb4l6mrL-mVY0md10Ru1xBbTr7-9IQ&s" alt="NGINX">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h3><strong>CI/CD</strong></h3>
-            </td>
-            <td>
-                <img width="50px" src="https://cdn.iconscout.com/icon/free/png-256/jenkins-1-282385.png?w=128&f=avif" alt="Jenkins">
-            </td>
-            <td>
-                <img width="50px" src="https://avatars.githubusercontent.com/u/44036562?s=280&v=4" alt="Github Actions">
+                <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxThm9s8immCsoSK8n_2O97lains-N0SxMAw&usqp=CAU" alt="Big Data">
             </td>
         </tr>
     </table>
@@ -283,3 +218,20 @@
     • [Projeto 1: Dashboard de acompanhamento de vendas](./Sprint_2/3_SQL_para_analise_de_dados/10_Projeto_1_Dashboard_de_vendas/)  
     • [Projeto 2: Análise de perfil dos clientes](./Sprint_2/3_SQL_para_analise_de_dados/11_Projeto_2_Analise_dos_clientes/)  
     
+4. [Big Data Fundamentos 3.0](./Sprint_2/4_Big_Data_Fundamentos/)  
+    • [Introdução](./Sprint_2/4_Big_Data_Fundamentos/01_Introducao/)  
+    • [O que é Big Data?](./Sprint_2/4_Big_Data_Fundamentos/02_O_que_e_Big_Data/)  
+    • [Sistemas de Armazenamento de Dados](./Sprint_2/4_Big_Data_Fundamentos/03_Sistemas_de_armazenamento_de_dados/)  
+    • [Armazenamento e Processamento Paralelo](./Sprint_2/4_Big_Data_Fundamentos/04_Armazenamento_e_processamento_paralelo/)  
+    • [Cloud Computing](./Sprint_2/4_Big_Data_Fundamentos/05_Cloud_computing/)  
+    • [MLOps e DataOps](./Sprint_2/4_Big_Data_Fundamentos/06_MLOps_e_DataOps/)  
+    • [Dados como Serviço](./Sprint_2/4_Big_Data_Fundamentos/07_Dados_como_Servico/)  
+    • [ETL - Extração, Transformação e Carga de Dados](./Sprint_2/4_Big_Data_Fundamentos/08_ETL/)  
+    • [Como Iniciar um Projeto Big Data?](./Sprint_2/4_Big_Data_Fundamentos/09_Como_iniciar_projeto_Big_Data/)  
+
+5. [Data & Analytics - PB - AWS 2/10](./Sprint_2/5_Data_%26_Analytics_2/)  
+    • [Conceitos utilizados no dia-a-dia de um profissional de Data & Analytics - I](./Sprint_2/5_Data_%26_Analytics_2/Conceitos_D%26A_1/)  
+    • [Linguagem SQL - Exercícios - Caso de Estudo "Biblioteca"](./Sprint_2/5_Data_%26_Analytics_2/Exercicios_1_Biblioteca/)  
+    • [Linguagem SQL - Exercícios - Caso de Estudo "Loja"](./Sprint_2/5_Data_%26_Analytics_2/Exercicios_2_Loja/)  
+    • [Conceitos utilizados no dia-a-dia de um profissional de Data & Analytics - 2](./Sprint_2/5_Data_%26_Analytics_2/Conceitos_D%26A_2/)  
+    • [Linguagem SQL - Exercícios II](./Sprint_2/5_Data_%26_Analytics_2/Exercicios_3_Exportacao_de_dados/)  
