@@ -1,0 +1,34 @@
+- Cloud Computing
+
+	- Introdução
+
+	- O Que é Cloud Computing?
+		- A Computação em Nuvem é a entrega de serviços de computação - incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência - pela internet para oferecer recursos flexíveis, inovação e economia de escala
+		- Pagamos apenas pelos serviços em nuvem que usamos
+			- Reduzir custos operacionais
+			- Escalar conforme as necessidades de negócios mudam
+
+	- Cloud Computing e Big Data
+
+	- Principais Provedores em Nuvem - Parte 1/2
+		- Amazon Web Services
+		- Microsoft Azure
+
+	- Principais Provedores em Nuvem - Parte 2/2
+		- Google Cloud Platform
+		- IBM Cloud
+		- Oracle Cloud
+
+	- Conhecendo a AWS - Amazon Web Services
+	
+    - Demo - Big Data na Nuvem AWS
+	
+    - Demo - Big Data na Nuvem AWS - Parte 1/5
+	
+    - Demo - Big Data na Nuvem AWS - Parte 2/5
+
+	- Demo - Big Data na Nuvem AWS - Parte 3/5
+	
+    - Demo - Big Data na Nuvem AWS - Parte 4/5
+	
+    - Demo - Big Data na Nuvem AWS - Parte 5/5

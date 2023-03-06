@@ -1,0 +1,68 @@
+- Dados como Serviço
+
+	- Introdução
+
+	- Data as a Service (DaaS)
+		- Data as a Service
+			- Storage
+			- Processing
+			- Analytics
+		- Estratégia de gerenciamento de dados que visa alavancar os dados como um ativo de negócios para maior agilidade no processo de análise
+		- Ofertas "as a service"
+
+	- Arquitetura DaaS
+		- Mobile Application | External Users | Web Application
+		- Services/APIs
+			- Orchestration
+			- Analytics
+			- Representation
+			- Security
+			- Registration
+			- Caching
+			- Documentation
+		- Virtual Data Layer
+			- Data Warehouse | Date Lake | Operational Data | External Data
+		- A Arquitetura DaaS se concentra no provisionamento de dados de uma variedade de fontes sob demanda por meio do uso de APIs
+		- Projetado para simplificar o acesso aos dados, o DaaS oferece conjuntos de dados já tratados ou fluxos de dados para serem consumidos em uma variedade de formatos, geralmente unificados usando virtualização de dados
+		- Pode incluir uma variedade de tecnologias de gerenciamento de dados
+
+	- Principais Benefícios de DaaS - Parte 1/2
+		- Monetização de dados
+		- Redução de custos
+		- Caminho mais rápido para a inovação
+
+	- Principais Benefícios de DaaS - Parte 2/2
+		- Agilidade no processo de decisão baseado em dados
+		- Menor risco no uso de dados
+		- Criação de uma cultura Data-Driven
+
+	- Arquiteturas Modernas de Big Data
+		- As duas últimas tendências em arquiteturas de plataforma de dados emergentes são o Data Lakehousee o Data Mesh
+
+	- O que é Data Lakehouse?
+		- Nova arquitetura de gerenciamento de dados que combina a flexibilidade, economia e escala de Data Lakes com o gerenciamento de dados e transações ACID (Atomicidade,   Consistência,   Isolamento,   Durabilidade) de Data Warehouses,   permitindo Business Intelligence (BI) e Machine Learning(ML) em todos dados armazenados em um único repositório
+		- implementação de  estruturas  de  dados  e  recursos  de  gerenciamento  de  dados  semelhantes  aos  de  um Data Warehouse,  diretamente  no  tipo  de  armazenamento  de  baixo  custo  usado  para Data Lakes
+		- Garante que as equipes tenham os dados mais completos e atualizados disponíveis para projetos
+
+	- O que é Data Mesh?
+		- Um tipo de arquitetura de plataforma de dados que abrange a onipresença dos dados na empresa, permitindo um design orientado ao domínio e de autoatendimento
+		- Considerado  a  próxima  grande mudança arquitetônica em dados
+		- Data Mesh é uma arquitetura de dados altamente descentralizada
+		- Data  Mesh tenta  resolver  três  desafios quando  temos um Data Lake/Warehouse centralizado
+			- Falta de propriedade. Quem é o proprietário dos dados -a equipe da fonte de dados ou a equipe de infraestrutura
+			- Falta de qualidade. A equipe de infraestrutura é responsável pela qualidade, mas não conhece bem os dados
+			- Escalonamento organizacional. O armazenamento central torna-se o gargalo, como no caso de um Data Lake/Warehouse empresarial
+			- Tratar os dados como um produto, com cada fonte tendo seu próprio  gerente/proprietário  de  produto  de  dados
+			- Arquitetura distribuída orientada por domínio
+			- Cada  domínio  deve  ser  detectável,  endereçável,  autoexplicativo,  seguro (governado por controle de acesso global), confiável e interoperável (governado por um padrão aberto)
+			- infraestrutura de dados como plataforma
+
+	- Data Mesh como Paradigma de Arquitetura de Dados
+		- Data Meshé um paradigma arquitetônico e organizacional que desafia a antiga suposição de que devemos centralizar os dadospara usá-los, ter todos os dados em um só lugar ou teros dadosgerenciados por uma equipe de dados centralizada para agregar valor
+		- Princípios
+			- Descentralização orientada ao domínio da propriedade e arquitetura de dados; 
+			- Dados orientados ao domínio servidos como um produto;  
+			- Infraestrutura de dados de autoatendimento como uma plataforma para habilitar equipes de dados autônomas e orientadas para o domínio; 
+			- Governança federada para permitir ecossistemas e interoperabilidade.
+
+	- Soluções Comerciais

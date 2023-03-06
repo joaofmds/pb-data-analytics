@@ -1,0 +1,98 @@
+- Sistemas de Armazenamento de Dados
+
+	- Introdução
+
+	- O "V" de Volume em Big Data
+		- O V de Volume é crítico em Big Data
+		- Como vamos armazenar grandes conjuntos de dados?
+		- Como vamos acessar grandes conjuntos de dados armazenados?
+		- Precisamos realmente armazenar tudo?
+
+	- Como Armazenamos Big Data?
+		- O armazenamento pode ser feito com base na seguinte regra:
+			- Os dados são estruturados ou podem ser estruturados antes do armazenamento?
+				- Usamos um Data Warehouse
+			- Os dados não são estruturados ou não podem ser estruturados antes do armazenamento?
+				- Usamos um Data Lake ou um Data Store
+
+	- Banco de Dados Relacionais x Bancos de Dados NoSQL - Parte 1/2
+		- Banco de Dados Relacionais são banco de dados estruturados e com schema (organização dos dados) bem definido
+		- O schema é definido e criado antes do armazenamento dos dados
+		- Um Data Warehouse é criado com alguma tecnologia de banco relacional 
+		- Em um banco de dados relacional os dados são organizados em tabelas que se relacionam
+	
+    - Banco de Dados Relacionais x Bancos de Dados NoSQL - Parte 2/2
+		- NoSQL partem do princípio que os dados podem ser semi ou não estruturados e que outros tipos de relacionamentos podem existir entre os dados
+		- Podemos usar NoSQL para construir Data Lakes e Data Stores 
+		- Não precisamos definir o schema antes do armazenamento ou o schema é definido no momento do armazenamento dos dados
+		- Tipos de NoSQL
+			- Key-Value
+			- GraphDB
+			- Column Family
+			- Document
+	
+    - Definindo Data Warehouses - Parte 1/2
+		- DW é um sistema de armazenamento que conecta e harmoniza grandes quantidades de dados de muitas fontes diferentes
+		- Seu objetivo é alimentar a inteligência de negócios, relatórios e análises e oferecer suporte aos requisitos de negócio, para que as empresas possam transformar seus dados em insights e tomar decisões inteligentes baseadas em dados
+		- Os DWs armazenam dados atuais e históricos em um único lugar e atuam como a única fonte de informações confiáveis para uma organização
+		- Data Sources
+			- Data Warehouse
+				- Analysis
+				- Reporting
+				- Data Mining
+		- Os dados fluem para um DW a partir de sistemas transacionais, banco de dados e fontes externas, como sistemas de parceiros, dispositivos de Internet das Coisas (IoT), aplicativos de mídia social
+		- O surgimento da computação em nuvem causou uma mudança no cenário
+		- Os locais de armazenamento de dados mudaram da infraestrutura local para vários locais, incluindo nuvem privada e nuvem pública 
+		- O schema deve ser definido antes do processo de armazenamento dos dados 
+	
+    - Definindo Data Warehouses - Parte 2/2
+		- Os DWs modernos são projetados para lidar com dados estruturados e não estruturados, como vídeos, arquivos de imagem e dados de sensor
+
+	- Benefícios do DW
+		- Melhor análise de negócios
+		- Consultas mais rápidas
+		- Melhoria da qualidade dos dados
+		- Visão histórica
+
+	- Definindo Data Lakes Parte - 1/2
+		- Fontes de dados
+		- Armazenamento em formato bruto
+		- Limpeza e transformação
+		- Análise, relatórios, machine learning
+		- Um data lake é um repositório centralizado que permite armazenar todos os dados estruturados e não estruturados em qualquer escala. Podemos armazenar os dados como estão na fonte, sem ter que primeiro estruturá-los e executar diferentes tipos de análises de painéis e visualizações a processamento de Big Data, análises em tempo real e aprendizado de máquina para orientar melhores decisões
+		- Dependendo dos requisitos, uma empresa típica exigirá um Data Warehouse e um Data Lake, pois eles atendem a diferentes necessidades e casos de uso
+		- A estrutura dos dados ou schema não é definida quando os dados são capturados. Isso significa que você pode armazenar todos os dados em formato bruto sem a necessidade de saber quais perguntas de negócio deverão ser respondidas no futuro
+
+	- Definindo Data Lakes Parte  - 2/2
+		- Diferentes tipos de análises, como consultas SQL, análises de Big Data, pesquisa de texto, análises em tempo real e aprendizado de máquina, podem ser usados para descobrir insights
+		- Os Data Lakes permitem que as empresas gerem diferentes tipos de percepções sobre os dados, desde relatórios sobre dados históricos até modelos preditivos criados com Machine Learning
+		- O principal desafio de uma arquitetura de Data Lake é que os dados brutos são armazenados sem supervisão do conteúdo. Para que um Data Lake torne os dados utilizáveis, ele precisa ter mecanismos definidos para catalogar e proteger os dados. Sem esses elementos, os dados não podem ser encontrados ou confiáveis, resultando em um "Pântano de Dados" (Data Swamp). Atender às necessidades de público mais amplo exige que os Data Lakes tenham governança, gestão de metadados, consistência semântica e controles de acesso
+		- Data Lake é um conceito e pode ser construído com diferentes tecnologias como Apache Hadoop ou NoSQL
+		- Podemos importar dados do DW para o Data Lake e vice-versa
+		- Para o DW normalmente usamos ETL (Extração, Transformação e Carga)
+		- Para o Data Lake utilizamos ELT (Extração, Carga e Transformação)
+		- Data Lakes e DWs podem fazer parte de uma grande estrutura central de armazenamento chamado Data Hub
+
+	- Benefícios do Data Lake
+		- Armazenamento em formato bruto
+		- Importação de qualquer quantidade de dados em tempo real
+		- Repositório central para todos os dados da empresa
+		- Sem necessidade de movimentação dos dados
+	
+    - Definindo Data Store
+		- Um Data Store é um repositório para armazenar e gerenciar de forma persistente coleções  de dados que incluem não apenas dados estruturados, mas também tipos de armazenamento variado, como documentos, dados no formato de chave-valor, filas de mensagens e outros formatos de arquivo
+		- Tipos mais comuns:
+			- Armazenamento de chave-valor (Redis, Memcached)
+			- Motor de pesquisa de texto completo (ElasticSearch)
+			- Filas de mensagens (Apache Kafka)
+			- Sistema de arquivos distribuídos (Hadoop HDFS, AWS S3)
+
+	- Benefícios do Data Store
+		- Armazenamento de variados tipos de dados
+		- Flexibilidade
+		- Suporte a dados semi-estruturados
+		- Custo total menor
+	
+    - Sistemas Híbridos de Armazenamento
+		- Com o avanço do Big Data veremos cada vez mais sistemas híbridos de armazenamento, com dados armazenados em diferentes tipos de repositórios, local ou na nuvem
+		- DWs, Data Lakes e Data Stokes serão usados  em conjunto criando  uma grande estrutura de armazenamento de dados, um Data Hub

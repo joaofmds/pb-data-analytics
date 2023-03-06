@@ -1,0 +1,42 @@
+- ETL - Extração, Transformação e Carga de Dados
+
+	- Introdução
+
+	- Definindo ETL
+		- ETL Process
+			- Source -> Extract -> Transfrom -> Load
+
+	- ETL x ELT
+		- ETL
+			- Extract, Transform, Load
+			- Data Warehouse
+		- ELT
+			- Extract, Load, Transform
+			- Data Lake
+
+	- Principais Soluções de ETL e ELT do Mercado - Parte 1/4
+		- Oracle Data Integrator
+		- Pentaho
+		- Apache NiFi
+
+	- Principais Soluções de ETL e ELT do Mercado - Parte 2/4
+		- Apache Spark
+
+	- Principais Soluções de ETL e ELT do Mercado - Parte 3/4
+		- Azure Data Factory
+		- AWS Glue
+		- AWS Athena
+
+	- Principais Soluções de ETL e ELT do Mercado - Parte 4/4
+		- PowerCenter
+		- Apache Airflow
+
+	- Demo ETL e Big Data - Parte 1/5
+
+	- Demo ETL e Big Data - Parte 2/5
+
+	- Demo ETL e Big Data - Parte 3/5
+	
+    - Demo ETL e Big Data - Parte 4/5
+	
+    - Demo ETL e Big Data - Parte 5/5

@@ -1,0 +1,51 @@
+- O que é Big Data?
+
+	- Introdução
+
+	- Fatos Sobre o Big Data
+		- 2,5 quintilhões de bytes por dia é gerada para nortear indivíduos, empresas e governos, e está dobrando a cada 5 anos
+		- Cerca de 90% de todos os dados gerados no planeta, foram gerados nos últimos 2 anos
+		- Aproximadamente 80% dos dados são não-estruturados ou estão em diferentes formatos, o que dificulta a análise
+		- Toda vez que fazemos uma compra, uma ligação ou interagimos nas redes sociais, estamos produzindo esses dados
+		- Com a conectividade em objetos, as informações capturadas se tornam massivas e podem ser cruzadas para cirar modelos preditivos cada vez mais elaborados, apontando e, até prevendo, o comportamento de empresas e clientes
+	
+    - O que é Big Data?
+		- Big Data é uma coleção de conjuntos de dados, grandes e complexos que não podem ser processados por bancos de dados ou aplicações de processamento tradicionais
+		- O Google estima que a humanidade criou nos últimos 5 anos, o equivalente a 300 exabytes de dados
+		- Podemos definir o conceito de Big Data como sendo conjuntos de dados extremamente amplos e que, por este motivo, necessitam de ferramentas especialmente preparadas para lidar com grandes volumes, velocidade e variedade, de forma que toda e qualquer informação disponível nos dados possa ser encontrada, analisada e aproveitada em tempo hábil
+		- Análise de grandes quantidades de dados para a geração de resultados importantes que, em volumes menores, dificilmente seriam alcançados
+		- O Big Data nos dá uma visão clara do que é granular
+		- No mundo do Big Data não temos de nos fixar na causalidade; podemos descobrir padrões e correlações nos dados que nos propiciem novas e valiosas ideias
+	
+    - Os 4 V's do Big Data
+		- Volume
+			- Tamanho dos Dados
+		- Variedade
+			- Formato dos Dados
+		- Velocidade
+			- Geração dos Dados
+		- Veracidade
+			- Confiabilidade dos Dados 
+	
+    - Alguns Números do Big Data
+		- Volume
+		- Variedade
+		- Velocidade
+		- Veracidade
+	
+    - Big Data x Ciência de Dados
+		- São a mesma coisa?
+			- Não
+		- Big Data é a matéria-prima, ou seja, dados
+		- Ciência de Dados é um conjunto de técnicas para análise de dados
+		- Quando aplicamos Ciência de Dados ao Big Data extraímos valor e então temos o que é chamado de Big Data Analytics
+	
+    - Exemplos de Aplicação do Big Data Analytics - Parte 1/2
+		- Uma companhia aérea pode extrair, armazenar, processar e analisar dados de viagens dos passageiros a fim de oferecer rotas com maior probabilidade de venda
+		- Uma rede de supermercados pode extrair, armazenar, processar e analisar dados de compras a fim de detectar padrões e organizar os produtos de forma a aumentas as vendas
+	
+    - Exemplos de Aplicação do Big Data Analytics - Parte 2/2
+		- Uma rede de hotéis pode extrair, armazenar, processar e analisar dados de comentários de clientes em redes sociais para customizar seus serviços, aumentar as vendas e reduzir custos
+		- Uma rede de hospitais pode extrair, armazenar, processar e analisar dados de exames médicos a fim de personalizar e otimizar o atendimento dos pacientes 
+	
+    - Qual o Volume de Armazenamento do Facebook e Google

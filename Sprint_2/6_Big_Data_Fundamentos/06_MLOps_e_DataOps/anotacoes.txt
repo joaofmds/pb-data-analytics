@@ -1,0 +1,123 @@
+- MLOps e DataOps
+
+	- Introdução
+
+	- O Que é Machine Learning
+		- Machine Learning é uma sub-área da Inteligência Artificial (IA) e da CiÊncia da Computação que se concentra no uso de dados e algoritmos para imitar a forma como os humanos aprendem, melhorando gradativamente sua precisão
+		- Artificial Intelligence
+			- Machine Learning
+				- Deep Learning
+		- Aprendizado supervisionado
+		- Dados -> Algoritmo -> Modelo
+
+	- O Pipeline de Machine Learning
+		- Preparação dos Dados -> Construção e Treinamento do Modelo -> Deploy do Modelo
+		- Engenheiro de Dados
+			- Dados
+		- Cientista de Dados/Engenheiro de Dados
+			- Preparação dos dados
+				- Limpeza
+				- Transformação
+				- Normalização
+				- Processamento
+		- Cientista de Dados / Engenheiro de IA
+			- Modelagem
+				- Seleção do Algoritmo
+				- Otimização de Hiperparâmetros
+				- Treinamento
+				- Teste e Avaliação
+		- Engenheiro de Machine Learning
+			- Deploy
+				- Deploy
+				- Processamento
+
+	- O Que é Machine Learning Ops? - Parte 1/2
+		- Pipeline de dados
+			- ML Environments
+				- Data Pipeline
+				- Dev
+					- Build
+					- Train
+					- Candidate Model
+				- Preprod
+					- Integrate and Validate
+				- Prod
+					- Deploy
+					- Monitor
+	
+    	- MLOps
+			- Data Sourcing
+			- Data Labeling
+			- Data Versioning
+			- Model Management
+				- Experiment Tracking
+					- Model Architeecture
+					- Model Training
+					- Model Evaluation
+				- Model Versioning
+				- Model Deployment
+				- Scaling Hardware
+			- Prediction Monitoring
+			- MLOps = ML + Dev + Ops
+	
+    - O Que é Machine Learning Ops? - Parte 2/2
+		- MLOps é um conjunto de práticas para colaboração e comunicação entre Cientistas de Dados e profissionais de operações
+		- MLOps é tarefa do Engenheiro de Machine Learning
+		- A aplicação dessas práticas aumenta a qualidade, simplifica o processo de gerenciamento e automatiza a implantação de modelos de aprendizado de máquina em ambientes de produção em grande escala. É mais fácil alinhar os modelos às necessidades de negócios, bem como aos requisitos regulamentares
+		- MLOps visa unificaro desenvolvimento de sistemas de ML e a implantação de sistemas de ML para padronizar e agilizar a entrega contínua de modelos de alto desempenho em produção
+
+	- Quais Problemas Podem Ser Resolvidos com MLOps?
+		- Principais desafios:
+			- Cientistas de Dados que sejam bons em análise de dados e que tenham  conhecimento  em desenvolvimento  e  implantação  de aplicações  web
+				- O Engenheiro  de  Machine é a nterseção da Data Science e do DevOps
+			- Mudança dos objetivos de negócios no modelo
+			- Lacunas de comunicação entre as equipes técnicas e de negócios que não possuem uma  linguagem  comum
+			- Avaliação de risco
+	
+    - O Engenheiro de Machine Learning
+		- Um Engenheiro de Machine Learningé o profissionalque se concentra em pesquisar, construir  e  projetar  sistemas  de  inteligência  artificial  (IA)  autoexecutáveis para  automatizar modelos preditivos
+		- Profissionais responsáveis pelo deploy de  modelos  de  Machine  Learning
+		- Projetar,  desenvolver  e  pesquisar  sistemas,  modelos  e  esquemas  de Machine Learning(ML).
+		- Estudar, transformar e converter protótipos de ciência de dados
+		- Pesquisa e seleção de conjuntos de dados apropriados
+		- Execução de análises estatísticas e uso de resultados para melhorar os modelos
+		- Treinamento e reciclagem de sistemas e modelos de ML, conforme necessário
+		- Identificar diferenças na distribuição de dados que podem afetar o desempenho do modelo em situações do mundo real
+		- Visualização de dados para insights mais profundos
+		- Analisar os casos de uso de algoritmos de ML e classificá-los por sua probabilidade de sucesso
+		- Compreender quando suas descobertas podem ser aplicadas a decisões de negócios
+		- Verificar a qualidade dos dados por meio da limpeza de dados
+
+	- DevOps, MLOps, AIOps, DataOps
+		- DevOps
+			- Abordagem para desenvolvimento de software que acelera o ciclo de vida de construção usando automação. O DevOps se concentra na implantação contínua de software, aproveitando os recursos de TI sob demanda e automatizando a integração, o teste e a implantação de código. Essa fusão de desenvolvimento de software e operações de TI reduz o tempo de implantação, diminui o tempo de lançamento no mercado, minimiza defeitos e diminui o tempo necessário para resolver problemas
+			- Lançamento de software de meses para segundos
+		- MLOps: Operação do fluxo de trabalho em Machine Learning
+		- AIOps: Operação do fluxo de trabalho em IA
+		- DataOps: Conceito mais recente que abrnage toda a operação de dados de uma empresa
+
+	- O Que é DataOps? - Parte 1/2
+		- DataOps pe uma metodologia ágil e orientada a processos para desenvolver e entregar análises
+		- DataOps fornece as ferramentas, processos e estruturas organizacionais para apoiar a empresa focada em dados
+		- DataOps é a capacidade de habilitar soluções, desenvolver produtos de dados e ativar dados para valor comercial em todas as camadas de tecnologia, da infraestrutura à experiência do usuário final
+		- O objetivo do DataOps é agilizar o design, o desenvolvimento e a manutenção de aplicativos com base em dados e análise de dados. Busca melhorar a forma como os dados são gerenciados e os produtos são criados e coordenar essas melhorias com os objetivos do negócio
+		- As equipes de DataOps também buscam orquestrar dados, ferramentas, código e ambientes do início ao fim, com o objetivo de fornecer resultados reproduzíveis 
+		- As equipes de DataOps tendem a ver os pipelines análiticos como análogos às linhas de produção de uma fábrica, sendo que aqui a matéria-prima é o Big Data
+
+	- O Que é DataOps? - Parte 2/2
+		- Operações de Dados -> Produto final
+
+	- O Engenhiero DataOps
+		- Semelhante a um Engenheiro DevOps no campo de desenvolvimento de software, os Engenheiros  DataOps  são  profissionais  técnicos  que  se  concentram  principalmente  ou exclusivamente no ciclo de vida de desenvolvimento e implantação, e não no produto em si
+		- As funções de Engenheiro de Dados e Engenheiro DataOps são intercambiáveis. A linha comum entre os dois é disponibilizar dados para uso por Cientistas de Dados, Analistas de Dados e outros
+		- Os  Engenheiros  DataOps  apoiam  o  ciclo  de  fornecimento  e  utilização  de  dados definindo o processo e as tecnologias que outros usam para originar, transformar e utilizar dados.
+
+	- Big Data x Small Data
+		- Big Data
+			- Grandes volumes de dados, com muita variedade e gerados em alta velocidade
+		- Small Data
+			- Dados que estão disponíveis em quantidade mínima suficiente para compreensão humana
+
+	- Principais Ferramentas e Plataformas de MLOps
+	
+    - Principais Ferramentas e Plataformas de DataOps

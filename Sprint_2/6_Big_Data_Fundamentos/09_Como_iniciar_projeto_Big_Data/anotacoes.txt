@@ -1,0 +1,34 @@
+- Como Iniciar um Projeto Big Data?
+
+	- Introdução
+	
+    - O que é Big Data Analytics
+
+	- Como as empresas estão utilizando Big Data?
+		- Manufatura
+		- Finanças
+		- Saúde
+		- Varejo
+	
+    - Casos de Uso do Big Data Analytics
+		- Ceasars Entertainment
+		- Cerner
+		- eHarmony
+		- MasterCard
+		- FarmLogs
+		- Nippon Paint
+		- Facebook
+		- Twitter
+		- Linkedin
+		- YAhoo!
+		- Ebay
+
+	- Como iniciar um projeto de Big Data?
+
+	- Definição do Business Case
+
+	- Planejamento do Projeto
+	
+    - Definição dos requisitos técnicos
+	
+    - Criação de um Total Business Value Assessment
