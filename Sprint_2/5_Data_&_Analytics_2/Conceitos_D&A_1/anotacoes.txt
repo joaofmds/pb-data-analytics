@@ -1,0 +1,186 @@
+Conceitos de Data & Analytics I
+
+- Big Data
+	- What Happens in an Internet Minute in 2016?
+	- O termo Big Data significa um grande volume de dados, de alta velocidade e/ou de alta variedade que exigem formas inovadoras e econômicas de processamento de informações e que permitem uma melhor percepção, tomada de decisões e automação de processos
+	- Volume: a quantidade de dados importa. Com big data, você terá que processar grandes volumes de dados estruturados ou não.
+	- Velocidade: os dados são recebidos numa grande velocidade e precisam ser administrados em tempo hábil
+	- Variedade: refere-se aos vários tipos de dados disponíveis
+	- Variabilidade: os fluxos de dados podem ser altamente inconsistentes com picos periódico
+	- Complexidade: os dados têm origem de múltiplas tecnologias
+	- Surgimento do Hadoop e popularidade do NoSQL
+	- Dados através da Internet das Coisas
+	- Machine Learning
+	- Computação em nuvem
+	- A importância do big data não gira em torno da quantidade de dados que a empresa tem, mas do que a empresa faz com eles
+	- Pode-se obter dados de várias fontes e analisá-los para encontrar respostas que permitem: reduzir custos; economizar tempo; desenvolver novos produtos e otimizar ofertas; tomar decisões mais inteligentes
+
+- Ciência de Dados
+	- Ciência de dados é uma área interdisciplinar voltada para o estudo e a análise de dados, estruturados ou não, que visa a extração de conhecimento ou insights para possíveis tomadas de decisão, de maneira similar à mineração de dados
+	- Alia big data e machine learning
+	- Transformar essa grande quantidade de dados brutos em insights de negócios, e com isso, auxiliar empresas em tomadas de decisões para atingir melhores resultados
+	- A função de cientista de dados é crítica para organizações que buscam extrair insights de informações em iniciativas de “big data” e requer uma ampla combinação de habilidades que podem ser melhor atendidas numa equipe
+
+- Diferença entre papeis envolvidos em Big Data
+	- Cientista de Dados: conhecimentos em ciência da computação, estatística, modelagem, análises, matemática, machine learning, banco de dados, business intelligence, ciência social ou física, entre outros
+		- Desenvolvedor: profissionais focados em problemas técnicos e no gerenciamento dos dados
+		- Estatístico: profissionais focados em problemas estatísticos.
+		- Businessperson: profissionais focados na empresa e em como projetos de dados podem gerar lucros
+	- Arquiteto de Soluções para Dados
+		- O arquiteto de soluções tem por objetivo tornar o negócio simples
+		- A Arquitetura da Solução é uma prática de definição e descrição de uma arquitetura de um sistema no contexto de uma solução específica e pode englobar descrição do sistema inteiro ou só de parte do sistema
+		- conhecimento amplo em: Business Intelligence, Data Warehouse, Data Lake, Big Data, Ciência de Dados, em linguagens de programação como SQL, Python, Java, em ferramentas como por exemplo as presentes no Ecossistema Hadoop e em técnicas englobando dados como por exemplo Batch, ETL, Streaming, CDC, SCD entre outras.
+	- Engenheiro de Dados
+		- Profissional com amplo e profundo conhecimento sobre a implantação de componentes tecnológicos
+		- criação de metodologias de desenvolvimento específicas para clientes contemplando todo o ciclo de vida dos dados do Data Lake em conjunto com as decisões arquiteturais definidas no projeto, ser o responsável por buscar ferramentas e soluções para deploy e sustentação de Data Lakes
+	- Desenvolvedores
+		- Profissional com habilidades de codificação de sistemas que irá trabalhar em conjunto com o Engenheiro de dados e com o Arquiteto de Soluções
+	- Trilhas na Compasso
+
+- Tipos de Dados (estruturado, semi e não estruturado)
+	- Literal
+		- valor isolado, seja ele numérico, textual ou alfanumérico
+		- Um formulário de cadastro reúne vários campos que o usuário preencherá com dados literais
+		- Depois que os dados forem cadastrados, eles serão armazenados de forma inter-relacionada, e assim os dados brutos transformam-se em dados processados
+		- Quando os dados são processados, relacionados/agrupado ou interpretados, adicionando-se sobre eles contexto e importância, eles passam a representar informações
+	- Dado
+		- Dados digitais
+		- O dado representa a menor partícula de uma informação
+	- Informação
+		- Dado provido de sentido
+		- Em algumas situações, os dados podem ser processados, e mesmo assim não resultarem em informações
+		- Informação requer um processamento ou uma interpretação (ou análise) de dados brutos
+	- Dados versus Informações
+		- Conhecimento e a inteligência
+	- Conhecimento e Inteligência
+		- Os dados correspondem ao nível mais baixo, depois de processados ou interpretados tem-se a informação e, então, quando ela é contextualizada, chega-se ao conhecimento
+		- Os dados são fáceis de serem estruturados e coletados por equipamentos
+			- Explícitos, quantificados e transferíveis
+		- As informações requerem uma estruturação mais complexa, pois são dados com significados e agrupados
+		- Os conhecimentos são implícitos, de difícil estruturação e transmissão
+		- Conhecimento é uma informação contextualizada
+		- Quando o conhecimento é transformado em inteligência pelo processo do aprendizado ou aplicação e avaliação dos conhecimentos, servindo como importante ferramenta para tomada de decisões
+	- Dados Estruturados e Não Estruturados
+		- 3 formas de classificar os dados de acordo com sua estrutura
+			- Dados estruturados 
+			- Dados semiestruturados 
+			- Dados não estruturados
+	- Dados Estruturados
+		- Dados estruturados são aqueles organizados e representados com uma estrutura rígida, a qual foi previamente planejada para armazená-los
+		- Os dados de um mesmo cadastro estão relacionados . Em outras palavras, os dados estruturados de um mesmo bloco possuem uma relação.
+		- Registros ou grupos de dados diferentes, possuem diferentes valores, mas utilizam a mesma representação estrutural homogênea para armazenar os dados. Ou seja, possuem mesmo atributos e formatos, mas valores diferentes
+		- Banco de dados
+		- Formulário de cadastro
+	- Dados Não Estruturados
+		- Uma estrutura flexível e dinâmica ou sem estrutura definida
+		- Pode-se adicionar a ele quanto texto quiser, sem se preocupar com campos, restrições e limites
+		- Redes sociais
+	- Dados Semiestruturados
+		- Representação heterogênea, ou seja, possuem estrutura, mas ela é flexível
+			- Facilita o controle
+		- Arquivo em XML
+		- Outros exemplos de arquivos com dados semi-estruturados: 
+			- JSON – Javascript Object Notation
+			- RDF – Resource Description Framework
+			- OWL – Web Ontology Language.
+
+- Banco de dados (RDBMS vs NoSQL)
+	- Um banco de dados é uma coleção organizada de dados, geralmente armazenados e acessados eletronicamente de um sistema de computador
+	- Sistema de Gerenciamento de Banco de Dados (SGBD)
+		- Software que interage com usuários finais, aplicativos e com o próprio banco de dados para capturar e analisar os dados
+	- Bancos de Dados Relacionais
+		- Modelo relacional de dados
+		- Tabelas: estrutura de linhas e colunas para armazenamento de dados
+		- Colunas (atributos): atributos de uma tabela
+		- Registros (tuplas): Um registro ou tupla é uma linha formada por uma ou mais colunas
+		- Chaves: as tabelas se relacionam através de chaves
+			- Chave primária
+			- Chave secundária
+		- Modelagem
+			- Estruturar os objetos antes de inserir os dados
+		- Processo de Normalização
+			- simplifica grupos complexos de dados para evitar redundâncias e possibilitar um maior desempenho nas pesquisas
+			- Estágios de normalização
+		- ACID
+			- Atomicidade
+			- Consistência
+			- Isolamento
+			- Durabilidade
+		- Arquiteturas
+			- OLAP: otimizado para realização de seleção/extração de dados ou de grande volume de dados. Ideal para sistemas como de DW
+			- OLTP: otimizado para registrar transações. Ideal para sistemas com interações com clientes ou sistemas transacionais.
+		- SQL
+	- Bancos de dados NoSQL
+		- Bancos de dados não relacionais
+		- o objetivo de atender as necessidades de aplicações que necessitam de um desempenho superior ao oferecido por bancos de dados relacionais e realizar o dimensionamento da infraestrutura conforme a demanda
+		- BASE
+			- Basicamente Disponível: distribui os dados em diferentes repositórios tornando-os sempre disponíveis para as aplicações
+			- Estado Leve: não é consistente o tempo todo o que deixa o funcionamento leve
+			- Eventualmente Consistente: garante que em algum momento do tempo os dados estarão consistentes
+	- Tipos de NoSQL
+		- Banco de dados chave-valor (key-value)
+		- Banco de dados Orientado a Documentos
+		- Banco de dados Orientado a Colunas
+		- Banco de dados Orientado a Grafos
+	- Teorema CAP
+		- É impossível para um sistema de armazenamento de dados distribuído fornecer simultaneamente mais de duas das três propriedades:
+			- Consistência
+			- Disponibilidade
+			- Tolerância à Partição
+	- Casos de Uso e Não-Uso
+		- NoSQL
+			- Uso
+				- Necessidade de ir além do SQL
+				- Aplicações que precisam de flexibilidade de schema 
+				- Aplicações que precisam de Escalabilidade horizontal 
+				- Mais performance para grandes conjuntos de dados
+			- Não-Uso
+				- Necessidade de consistência o tempo todo.
+				- Não indicada para processos transacionais que necessitem de confirmação de transação com baixa latência
+		- RDBMS
+			- Uso
+				- Aplicações com necessidade de consistência transacional com baixa latência
+				- Aplicações com transações complexas
+			- Não-Uso
+				- Aplicações que tem demanda variável acabam necessitando de muito HW para um banco de dados relacional
+				- Aplicações que precisam de flexibilidade de schema
+	- Change Data Capture (CDC)
+		- É um Design Pattern em bancos de dados utilizado para determinar os dados que mudaram para que a ação possa ser executada
+		- Tem como objetivo diminuir a necessidade de carregar muitos dados e reduzir janelas de cargas batch ou streaming/micro-batch
+		- Métodos de implementação
+			- Linhas com Data de Modificação
+			- Linhas com nº de versão do registro/linha
+			- Linhas com indicadores de status
+			- Tabelas com triggers
+			- Pesquisa em Logs Transacionais do banco de dados
+			- Eventos programados
+
+- Tipos de armazenamentos de dados
+	- TXT
+	- CSV
+	- XML
+	- JSON
+	- AVRO
+	- PARQUET
+	- ORC
+
+- Data Lake (Arquitetura Lambda)
+	- Um Data Lake é um local central para armazenar todos os seus dados, independentemente de sua origem ou formato
+	- São alimentados com informações em sua forma nativa com pouco ou nenhum processamento realizado para adaptar a estrutura a um esquema corporativo
+	- Flexibilidade
+	- Atributos Chaves de um Data Lake
+		- Deve ser um único repositório compartilhado de dados
+		- Incluir capacidades de orquestração e agendamento de tarefas
+		- Conter um conjunto de aplicativos ou de workflows para consumir, processar ou agir de acordo com os dados
+	- Arquitetura Lambda
+		- modelo de arquitetura BigData
+		- É necessário utilizar uma variedade de ferramentas e técnicas para construir um sistema completo de Big Data
+		- Camadas
+			- batch layer
+			- speed layer 
+			- serving layer
+		- O dado a ser processado é direcionado para duas camadas (batch e speed).
+		- Dentro da batch layer esse dado é armazenado de maneira atômica
+		- Caso exista a necessidade de uma mudança, uma nova versão do dado já alterada é armazenada e a anterior não é removida e continua sem mudanças
+		- Isso permite que o dado em seu formato original sempre esteja disponível
+		- Esses dados que estão na batch layer são então processados para gerar visualizações pré-calculadas com as informações ajustadas e organizadas de acordo com a necessidade de negócio

@@ -1,0 +1,76 @@
+Conceitos de Data & Analytics II
+
+- Técnicas para Processamento de Dados
+	- Processamento em Lote (Batch): é o processamento que acontece em blocos de dados que já foram armazenados durante um período de tempo
+		- É o processamento de diversas transações que ocorreram num sistema de origem e serão processadas para outros sistemas em conjunto ou em bloco
+		- Hadoop MapReduce
+		- Apenas a transferência de dados em blocos até um processamento com transformações nos dados
+		- ETL: processamento de blocos de dados em etapas de Extração, Transformação e Carga
+			- Utilizado para construir um data warehouse
+	- Processamento Stream: O processamento stream trabalha com fluxos de dados que são capturados em tempo real e processados com latência mínima para o sistema de destino
+		- Um pequeno conjunto de transações é processada e enviada ao sistema de destino
+		- Permite processar dados em tempo real conforme eles chegam e detectar rapidamente as condições dentro de um pequeno período de tempo a partir do momento em que os dados são recebidos
+
+- Business Intelligence (BI)
+	- é um termo guarda-chuvas ou abrangente que inclui os aplicações, infraestrutura, ferramentas e boas práticas que permitem o acesso e a análise de informações para melhorar e otimizar as decisões
+	- As principais funções de um BI são: relatórios, análises, mineração de dados, processamento de eventos complexos, gerenciamento de desempenho dos negócios, benchmarking, mineração de dados, análises previsíveis e análises prescritivas
+
+- Data Warehouse (DW)
+	- Tem por objetivo a centralização dos dados retirados de diversas origens para facilitar ou simplificar o consumo futuro
+	- Data Mart
+	- Um DW utiliza dados em formado de-normalizados para aumentar o desempenho das consultas e torna-se mais intuitivo para os utilizadores
+	- Modelagem dimensional
+		- Tipo de modelagem entidade-relacionamento (ER)
+		- Dimensões e Fatos
+			- As dimensões se referem ao contexto enquanto que os fatos se referem às medidas/métricas
+		- Os dados de um DW são agrupados ao redor de fatos, que são campos numéricos que podem ser agregados e analisados e dimensões que são filtros de negócios e campos de agrupamento
+
+- Slowly Changing Dimension (SCD)
+	- Armazenamento de dados históricos
+	- Um SCD é uma dimensão que armazena e gerencia dados atuais e históricos ao longo do tempo em um data warehouse
+	- Tipos
+		- Sobreposição: os novos dados substituem os dados existentes
+		- Criação de novo registro: Mantém o histórico completo dos valores
+		- Criação de novo campo: armazena duas versões de valores para determinados atributos
+		- SCD Híbrido: pode combinar todos os tipos de SCD anteriores
+
+- Mineração de Dados
+	- Data mining
+	- Processo de descobrir correlações, padrões e tendências significativos analisando grandes quantidades de dados armazenados em repositórios
+	- Tecnologias de reconhecimento de padrões
+	- Descoberta de conhecimento em bancos de dados
+	- Estatística
+	- Inteligência Artificial
+	- Machine Learning
+	- Ciência de Dados vs Mineração de Dados
+
+- Machine Learning
+	- Inteligência artificial que é responsável por fornecer aos computadores a capacidade de aprender sobre novos conjuntos de dados sem serem programados por meio de uma fonte explícita
+	- Algoritmos de aprendizado supervisionado são treinados por meio de exemplos rotulados, como uma entrada na qual a saída desejada é conhecida
+	- O aprendizado não-supervisionado é utilizado contra dados que não possuem rótulos históricos
+	- O aprendizado semi-supervisionado é utilizado para as mesmas aplicações que o aprendizado supervisionado. Mas este aqui manipula tanto dados rotulados quanto não-rotulados para treinamento
+	- O aprendizado por reforço é normalmente utilizado em robótica, jogos e navegação
+
+- Deep Learning
+	- Deep learning é um tipo de machine learning com o objetivo de treinar computadores para realizar tarefas como seres humanos, o que inclui reconhecimento de fala, identificação de imagem e previsões
+
+- Relatórios
+	- Relatório é um documento que apresenta informações em um formato organizado para um público específico e propósito
+
+- Dashboards
+	- Dashboard basicamente é um indicador de negócios, pode ser um número ou um gráfico
+	- painel de dados
+
+- Internet das coisas (IoT)
+	- a rede de objetos físicos que contém tecnologia embarcada para comunicar e sentir ou interagir com seus estados internos ou com o ambiente externo
+
+- API
+	- Application Program Interface
+	- conjunto de rotinas, protocolos e ferramentas para criar aplicativos de software
+	- local
+	- web-like
+	- program-like
+
+- Métodos de acesso à Banco de Dados
+	- ODBC da Microsoft
+	- JDBC (Java Database Connectivity)
