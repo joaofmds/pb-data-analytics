@@ -1,0 +1,38 @@
+Linguagem Python II
+
+- O que é do Orientação a Objetos?
+    - Orientação a Objetos: Técnicas de programação que possibilitam a utilização objetos
+
+    - Conceitos de OO
+        - Polimorfismo
+            - Se dá quando em uma hierarquia de classes existe a implementação métodos com a mesma assinatura, ou seja, o código funciona para
+    qualquer classe desta hierarquia removendo a necessidade de implementações específicas para cada uma das classes
+        - Herança
+            - Existe quando uma classe herda os mesmos atributos e mesmos métodos, por exemplo, Cachorro e Gato 
+            são objetos da classe de mamíferos
+        - Encapsulamento
+            - O Encapsulamento se baseia no conceito de “esconder” os atributos de uma classe, ou seja, para quem for 
+            usar a classe não a utilizar de forma incorreta
+        - Objetos
+        - Classe
+        - Abstração
+
+    - Benefícios da OO
+        - Diminui a complexidade para entendimento e manutenibilidade
+        - Orientação a Objetos facilita a reusabilidade de códigos, evitando a duplicidade.
+        - Facilita e acelera o desenvolvimento paralelo de classes e programas.
+        - Programas Orientados a Objetos são mais fáceis de testar, gerenciar e “debuggar”.
+
+    - Desvantagens da OO
+        - Possível superficialidade entre classes.
+        - Planejamento prévio e conhecimentos sobre programação são necessários.
+        - Muitas vezes classes acabam sendo generalizadas.
+
+- Extração, Transformação, Carregamento (ETL)
+    - Extração dos dados: buscar os dados que devem ser armazenados na staging area (ou landing zone) de maneira que 
+   eles possam passar pelas transformações necessárias
+    - Tipos de manipulações:
+        - Remoção de duplicatas
+        - Combinação de dados de fontes diversas para formação de novos datasets
+        - correção erros ortográficos 
+    - Loading dos dados aferidos: assegurar a qualidade e integridade dos dados a serem publicados

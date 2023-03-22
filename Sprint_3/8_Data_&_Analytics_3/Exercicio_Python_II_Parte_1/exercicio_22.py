@@ -1,0 +1,33 @@
+"""
+Crie uma classe chamada "Pessoa" com um atributo privado "nome" (representado como "__nome") e um atributo público 
+"id". Adicione duas funções à classe, uma para definir o valor de "nome" e outra para obter o valor de "nome". 
+Observe que o atributo "nome" deve ser privado e acessado somente através dessas funções.
+
+Para testar seu código use:
+
+pessoa = Pessoa(0) 
+pessoa.nome = 'Fulano De Tal'
+print(pessoa.nome)
+"""
+
+class Pessoa:
+    
+    id = 0
+    
+    def __init__(self, nome):
+        self.id = Pessoa.id
+        self.__nome = nome
+        Pessoa.id += 1
+
+    @property
+    def nome(self):
+        return self.__nome
+    
+    @nome.setter
+    def nome(self, novo_nome):
+        self.__nome = novo_nome
+        
+        
+pessoa = Pessoa(0) 
+pessoa.nome = 'Fulano De Tal'
+print(pessoa.nome)

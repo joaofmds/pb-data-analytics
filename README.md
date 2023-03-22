@@ -177,6 +177,9 @@
 
 ## **Data & Analytics**  
 
+#### **Cultura Ágil e Segurança**
+- [Segurança em Aplicações WEB](./Cultura_Agil_e_Seguranca/Seguranca_Web/)
+
 #### **Sprint 1**
 1. [Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)](./Sprint_1/1_Git_e_Github/)    
     • [Git funtamental](./Sprint_1/1_Git_e_Github/1_Git_Fundamental/)    
@@ -240,3 +243,19 @@
     • [ETL - Extração, Transformação e Carga de Dados](./Sprint_2/6_Big_Data_Fundamentos/08_ETL/)  
     • [Como Iniciar um Projeto Big Data?](./Sprint_2/6_Big_Data_Fundamentos/09_Como_iniciar_projeto_Big_Data/)  
 
+#### **Sprint 3**
+
+7. [Programação em Python do básico ao avançado](./Sprint_3/7_Python/)  
+    • [Funções em Python](./Sprint_3/7_Python/Funcoes/)  
+    • [Orientação a Objetos com Python](./Sprint_3/7_Python/Orientacao_a_Objetos/)  
+    • [Herança e Polimorfismo](./Sprint_3/7_Python/Heranca_e_Polimorfismo/)  
+    • [Manipulando Arquivos CSV e JSON](./Sprint_3/7_Python/CSV_e_JSON/)  
+    • [Trabalhando com Data e Hora em Pytohn](./Sprint_3/7_Python/Data_e_Hora/)  
+    
+8. [Data & Analytics - PB - AWS 3/10](./Sprint_3/8_Data_%26_Analytics_3/)  
+    • [Linguagem Python I](./Sprint_3/8_Data_%26_Analytics_3/Linguagem_Python_I/)  
+    • [Exercício Python I - 1/2](./Sprint_3/8_Data_%26_Analytics_3/Exercicio_Python_I_Parte_1/)  
+    • [Exercício Python I - 2/2](./Sprint_3/8_Data_%26_Analytics_3/Exercicio_Python_I_Parte_2/)  
+    • [Linguagem Python II](./Sprint_3/8_Data_%26_Analytics_3/Linguagem_Python_II/)  
+    • [Exercício Python II - 1/2](./Sprint_3/8_Data_%26_Analytics_3/Exercicio_Python_II_Parte_1/)  
+    • [Exercício Python II - 2/2](./Sprint_3/8_Data_%26_Analytics_3/Exercicio_Python_II_Parte_2/)  

