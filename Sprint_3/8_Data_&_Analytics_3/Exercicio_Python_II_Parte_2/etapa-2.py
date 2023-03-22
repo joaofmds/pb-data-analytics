@@ -12,7 +12,7 @@ def media_faturamento_bruto(arquivo_entrada):
             campos = linha.strip().split(',')
             
             if len(campos) == len(cabecalho) + 1:
-                campos[0] += ', ' + campos.pop(0)
+                campos[0] += ', ' + campos.pop(1)
         
             dados.append(campos)
         

@@ -12,7 +12,7 @@ def ator_maior_media_faturamento():
             campos = linha.strip().split(',')
             
             if len(campos) == len(cabecalho) + 1:
-                campos[0] += ', ' + campos.pop(0)
+                campos[0] += ', ' + campos.pop(1)
             
             dados.append(campos)
 
@@ -23,6 +23,8 @@ def ator_maior_media_faturamento():
         faturamento_medio = 0
 
         for linha in dados:
+            if linha[indice_faturamento_medio] == 'Average Biiling':
+                continue
             maior_faturamento = float(linha[indice_faturamento_medio])
             if maior_faturamento > faturamento_medio:
                 faturamento_medio = maior_faturamento

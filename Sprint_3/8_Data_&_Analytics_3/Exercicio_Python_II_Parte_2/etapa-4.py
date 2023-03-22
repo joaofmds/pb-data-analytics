@@ -13,8 +13,8 @@ def filme_mais_frequente(arquivo_entrada):
         for linha in linhas[1::]:
             campos = linha.strip().split(',')
             
-            if len(campos) == len(cabecalho) - 1:
-                campos[0] += ', ' + campos.pop(0)
+            if len(campos) == len(cabecalho) + 1:
+                campos[0] += ', ' + campos.pop(1)
             
             filmes = campos[4].split(';')
             for filme in filmes:
