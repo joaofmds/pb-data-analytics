@@ -1,0 +1,61 @@
+- 4. Funções de redução/mapeamento
+
+	- Fazer melhor uso de funções embutidas do Python
+		- any()
+		- all()
+		- len()
+		- sum()
+		- zip()
+		- reversed()
+		- enumerate()
+		- map()
+	- Funções de redução: any(), all(), len() e sum()
+		- Funções que consomem iteráveis e retornam um único valor
+	- Outras funções (zip(), enumerate(), map() e reversed()) produzem uma nova coleção, porém modificada
+
+	- 4.1 Funções de redução
+	
+		- 4.1.1 any()
+			- A função any itera sobre o iterável e verifica se seu valor é True
+			- Ele executa a função bool() para cada elemento da lista
+			- Qualquer objeto pode ser testado
+			- Os seguintes valores são considerados falsos:
+				- None
+				- False
+				- Zeros
+					- 0 (int)
+					- 0.0 (float)
+					- 0j (complex)
+				- Sequências vazias
+					- [] (lista)
+					- '' (string)
+					- {} (dicionários/conjuntos)
+			- any() retorna True se qualquer elemento da seqûencia for True (usando bool(elemento)) para todos os itens da sequência. Ou seja, a única maneira de ele ser False é que todos os elementos no iterável sejam falsos
+	
+		- 4.1.2 all()
+			- O all() só retorna True, se todos os elementos da sequência, aplicados a bool() retornarem True
+	
+		- 4.1.3 len()
+			- Efetua uma soma da quantidade de valores existentes em uma sequência
+			- O len vai acumular todos os valores existentes em qualquer tipo de sequência
+			- Todas as sequências implementam __len__()
+	
+		- 4.1.4 sum()
+			- A função embutida sum() executa uma somatória de todos os elementos da sequência
+			- Embora sum() faça a soma de valores, ele não usa o __add__() do objeto
+			- Existe uma função muito famosa em python chamada functools.reduce() que executa uma função de concatenação igual ao sum só que aplica qualquer tipo de operação
+	
+	- 4.2 Funções de mapeamento
+	
+		- 4.2.1 zip() e reversed()
+			- Ela funciona como um zipper
+			- Como o zip produz um iterador preguiçoso, não conseguimos acessar nenhum ítem pelo index, mas sim chamando a função embutida next()
+			- O zip retorna um iterável preguiçoso que casa valores de iteráveis
+	
+		- 4.2.2 enumerate()
+			- A função enumerate() faz uma coisa muito parecida com o zip, só que ele gera a sequência a ser zipada pra você
+	
+		- 4.2.3 map()
+			- Função de mapeamento
+			- Função de ordem superior
+			- Função que recebe uma função como argumento.

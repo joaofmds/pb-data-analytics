@@ -1,0 +1,9 @@
+- 7. Nossa primeira biblioteca de funções
+
+	- tail()
+	- head()
+	- take()
+	- drop()
+	- pipe()
+	- twice()
+	- Conclusões

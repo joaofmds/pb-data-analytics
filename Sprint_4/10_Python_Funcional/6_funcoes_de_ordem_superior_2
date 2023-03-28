@@ -1,0 +1,18 @@
+- 6. Funções de ordem superior p.2
+
+	- Três tipos de HOFs diferentes:
+		- Funções que aceitam funções como argumento
+		- Funções que retornam uma função ou uma classe com __call__
+		- Funções que aceitam e retornam funções (Geralmente são decoradores)
+
+	- 6.1 Funções que aceitam funções
+
+	- 6.2 Funções geradoras
+		- Funções geradoras 'trocam' o return por yield
+		- Função seja um gerador e retorne lazy como as funções embutidas do python
+		- Yield funciona como um break
+		- A função executa exatamente o que tem que ser executado e nos retorna apenas o valor do yield
+
+	- 6.3 Escrevendo nossas próprias HOFs
+		- Mapear sequências mais complexas
+		- streaming

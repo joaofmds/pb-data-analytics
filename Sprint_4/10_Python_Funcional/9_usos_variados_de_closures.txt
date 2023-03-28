@@ -1,0 +1,7 @@
+- 9. Usos variados de closures
+
+	- 9.1 Closures e lambdas
+	- 9.2 Métodos em closures
+	- 9.3 Interagindo com valores nonlocal
+	- 9.4 Closures que recebem funções (ou quase isso)
+	- 9.5 Decorando funções com closures

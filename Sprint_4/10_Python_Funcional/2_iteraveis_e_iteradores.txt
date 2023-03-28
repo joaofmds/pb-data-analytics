@@ -1,0 +1,16 @@
+- 2. Iteráveis e iteradores
+
+	- Iteráveis em python são todos os objetos que implementam o método __getitem__ ou __iter__
+	- Quase todos os tipos de dados em python são iteráveis
+	- Em python, o comando for nos fornece um iterador implícito
+
+- 2.1 __getitem__
+
+	- O padrão de projeto iterator em python já vem implementado por padrão
+
+- 2.2 __iter__
+
+	- quando o iterável chamar a sequência, ela vai pedir o __iter__ que vai retornar uma instância de si mesmo para o for e ele vai chamar o __next__ até que a exceção StopIteration aconteça
+	- O objeto com __iter__ não necessita de um __getitem__
+	- Um pode ser acessado por index/slice e outro não
+	- Removemos os elementos da sequência, ou seja, ela se torna descartável.

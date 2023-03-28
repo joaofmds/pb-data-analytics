@@ -1,0 +1,51 @@
+- 1. Funções
+
+- 1.1 Funções como objeto de primeira classe
+
+	- Funções como objeto de primeira classe, são funções que se comportam como qualquer tipo nativo de uma determinada linguagem
+	- Pode-se passar funções como parâmetro de uma outra função, podemos armazenar funções em variáveis, pode-se definir funções em estruturas de dado
+	- Em python, as funções podem ser inseridas em qualquer contexto e também geradas em tempo de execução
+	- É melhor fazer funções simples, pequenas e de pouca complexidade para que elas não sofram interferência do meio externo, gerem menos manutenção e o melhor de tudo, possam ser combinadas em outras funções
+
+- 1.2 Funções puras
+
+	- Funções puras são funções que não sofrem interferência do meio externo
+	- Uma função pura deve funcionar como uma caixa preta, todas as vezes em que o mesmo input for dado nela, ela terá que retornar o mesmo valor
+	- O Python só faz a leitura de variáveis externas
+	- Dentro do contexto da função as variáveis externas não podem ser modificadas, mas isso não impede que o contexto externo a modifique
+	- Funções de ordem superior
+		- Funções que recebem uma função como argumento
+		- Composição de funções
+
+- 1.3 Funções de ordem superior (HOFs)
+
+	- Funções de ordem superior são funções que recebem funções como argumento(s) e/ou retornam funções como resposta
+	- Map, filter, zip, functools...
+	- Criar novas funções de ordem superior
+	- Comprehensions
+
+- 1.3.1 Um exemplo usando funções embutidas:
+
+- 1.4 __call__
+
+	- Python é uma linguagem construída em classes, e todos os objetos que podem ser chamados/invocados implementam o método __call__
+	- Podemos gerar classes que se comportam como funções
+	- Classes, funções nomeadas, funções anônimas e funções geradoras usam uma base comum para funcionarem
+
+- 1.5 Funções geradoras
+
+	- Funções geradoras são funções que nos retornam um iterável
+	- Lazy
+	- Para que uma função seja geradora, em tese, só precisamos trocar o return por yield
+	- Ele só vai efetuar a computação quando for chamado
+
+- 1.6 Funções anônimas (lambda)
+
+	- Funções que podem ser declaradas em qualquer contexto
+	- Funções anônimas podem ser atribuídas a variáveis, podem ser definidas dentro de sequências e declaradas em um argumento de função
+	- A palavra reservada lambda define a função, assim como uma def
+	- As funções anônimas não tem nome
+	- Funções anônimas em Python só executam uma expressão
+	- Não podemos usar laços de repetição (while, for), tratamento de exceções (try, except, finally)
+	- O único uso de um if é o ternário
+	- Funções lambda também podem ter múltiplos argumentos, embora seu processamento só possa ocorrer em uma expressão

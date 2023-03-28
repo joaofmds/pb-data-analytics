@@ -1,0 +1,26 @@
+- 5. Funções de ordem superior
+
+	-  5.1 map()
+		- Recebe o iterável em conjunto a uma função
+		- As funções usadas por map() só podem receber um argumento
+		- A função map() vai pegar um elemento da sequência e aplicar a função
+		- Funções de ordem superior são funções que recebem funções como argumento, ou retornam outra funções.
+
+	- 5.2 max()
+		- A função max() é uma função de redução
+
+	- 5.3 min()
+		- A função min() é a função equivalente a max(). Quando a max() pega o maior item da sequência, min() pega o menor
+
+	- 5.4 iter()
+		- A função embutida iter() tem duas formas, a primeira devolve o iterável de uma sequência.
+		- Ele faz a chamada do método __iter__() do objeto
+		- O método readline, quando passado sem parâmetros efetua a leitura de um único caracter
+		  
+	- 5.5 sorted()
+		- Temos a função embutida sorted()
+		- Assim como as outras HOFs, temos o parâmetro opcional key e podemos decidir como a ordenação será feita.
+
+	- 5.7 filter()
+		- filter() não é uma função nem de mapeamento, nem de redução. filter() é uma função de filtragem
+		- filterfalse()

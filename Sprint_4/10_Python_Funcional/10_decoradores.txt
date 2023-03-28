@@ -1,0 +1,10 @@
+- 10. Decoradores
+
+	- 10.1 Qual a cara de um decorador?
+	- 10.2 Montando nosso primeiro decorador
+	- 10.3 Usando um pouco melhor a função externa
+		- 10.3.1 Um cache simples
+		- 10.3.2 Tempo de execução de uma função
+	- 10.4 Decoradores com parâmetros
+	- 10.5 Identidade das funções decoradas
+	- 10.5 Decorando decoradores
