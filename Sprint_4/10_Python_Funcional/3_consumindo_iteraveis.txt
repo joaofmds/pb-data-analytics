@@ -1,0 +1,6 @@
+- 3. Consumindo iteráveis
+
+	- Toda vez que realmente iteramos em alguma sequência, nós queremos os valores, queremos modificá-los, querendo incrementar, criar novos objetos e por ai vai...
+	- Existem muitas maneiras diferentes e até mais eficientes de iterar sobre sequências
+		- List comprehensions
+	- List Comprehensions  são muito mais simples e eficientes

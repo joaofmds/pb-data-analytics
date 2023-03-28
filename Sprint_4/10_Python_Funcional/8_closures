@@ -1,0 +1,18 @@
+- 8. Closures e contexto de variáveis
+
+	- Definir uma função no corpo de outra função
+	- Uma classe são dados com operações anexadas (...) Uma Closure são operações com dados anexados
+	- Uma vantagem de definir esse dicionário dentro da função é que ele vai ficar isolado das variáveis globais, o que faz ele não gerar efeito colateral
+
+	- 8.1 Classes vs closures
+		- Fixando parâmetros para padronização de chamadas
+		- O escopo da função externa é acessível para a função interna
+		- dado passado à função externa permanece imutável sempre e inacessível a qualquer contexto externo ao da função
+		- classe call()
+		- __setattr__() é o método da classe que 'seta' valores em atributos
+
+	- 8.2 Mutação das variáveis de uma closure
+		- Os valores podem ser alterados no escopo da função externa
+		- UnboundLocalError e escopo de variáveis
+		- Variáveis globais e locais
+		- Variáveis livres
