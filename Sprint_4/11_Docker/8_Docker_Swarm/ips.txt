@@ -1,0 +1,13 @@
+NODE01
+ssh -i "docker_lab.pem" ec2-user@ec2-3-133-149-142.us-east-2.compute.amazonaws.com
+
+NODE02
+ssh -i "docker_lab.pem" ec2-user@ec2-3-145-188-168.us-east-2.compute.amazonaws.com
+
+NODE03
+ssh -i "docker_lab.pem" ec2-user@ec2-18-221-124-229.us-east-2.compute.amazonaws.com
+
+NODE04
+ssh -i "docker_lab.pem" ec2-user@ec2-52-15-108-24.us-east-2.compute.amazonaws.com
+
+docker swarm join --token SWMTKN-1-095qc9x5ekg08yadl0bi3hq2uf76agi62mloeum8agtx7votzy-9kl9rx89f2flb2y4nir2ugt5f 172.31.8.17:2377

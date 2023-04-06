@@ -1,0 +1,39 @@
+# Instruções para o programa
+nome: "joão"
+idade: 23
+
+# Este objeto descreve o nosso projeto
+objeto:
+  versao: 2
+  arquivo: "teste.txt"
+
+versao: 2
+versao_completa: 3.14
+
+string_sem_aspas: Digite um texto aqui
+texto: "Este também é um texto válido para o YAML"
+
+nulo: ~
+nulo_dois: null
+
+verdadeiro: true
+verdadeiro_dois: on
+
+falso: false
+falso_dois: off
+
+lista: [1, 2, 3, 4, 5]
+
+lista_dois:
+  - "teste"
+  - 10
+  - Outro teste
+  - True
+
+obj: {a: 1, b: 2, c: 3}
+
+objeto:
+  a: 1
+  b: 2
+    objeto_interno:
+      x: 2
