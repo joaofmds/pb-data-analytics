@@ -200,7 +200,7 @@
 10. [Python Funcional](./Sprint_4/10_Python_Funcional/)
 11. [Docker para Desenvolvedores (com Docker Swarm e Kubernetes)](./Sprint_4/11_Docker/)
 12. [Estatística Descritiva com Python](./Sprint_4/12_Estat%C3%ADsitca_Descritiva/)
-13. [](./Sprint_4/13_Data_%26_Analytics_4/)
+13. [Data & Analytics - PB - AWS 4/10](./Sprint_4/13_Data_%26_Analytics_4/)
 
 #### **Sprint 5**
 14. [AWS Partner: Sales Accreditation (Business) (Portuguese)](./Sprint_5/Sales%20Accreditation%20Bussiness.pdf)
